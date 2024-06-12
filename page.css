@@ -30,28 +30,50 @@ header .red-header .buttton {
 }
 header .two-navs {
   display: none;
+}
+
+footer .section-1 .div-1 svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+footer .section-1 .div-1 .fot-p {
+  margin-bottom: 12px !important;
+}
+footer .section-1 .fotsocials {
+  gap: 10px;
+  padding-left: 10px;
+}
+footer .section-1 .fotsocials i {
+  font-size: 26px;
+}
+footer hr {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+}
+footer .section-2 .sec-2-body .fotedition {
+  list-style-type: none;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 15px;
+}
+footer .section-2 .sec-2-body .fotedition li {
+  margin: 0 10px 0 10px;
+}
+footer .section-2 .foot-bottom {
+  padding: 20px 0 0 0;
+  list-style-type: none;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 15px;
+}
+footer .section-2 .foot-bottom li {
+  width: auto;
+  margin: 0 10px 0 0;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=page.css.map */
-
-.fotsocials {
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.fotedition  {
-  list-style-type: none;
-
-}
-
-.fotedition .foot-bottom {
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.fotedition  {
-  list-style-type: none;
-
-}
-
-.foot-bottom {
-  list-style-type: none;
-}
