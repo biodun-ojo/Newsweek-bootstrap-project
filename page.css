@@ -36,3 +36,22 @@ header .two-navs {
   justify-content: space-between;
   padding: 10px;
 }
+
+.fotedition  {
+  list-style-type: none;
+
+}
+
+.fotedition .foot-bottom {
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.fotedition  {
+  list-style-type: none;
+
+}
+
+.foot-bottom {
+  list-style-type: none;
+}
