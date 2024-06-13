@@ -15,18 +15,18 @@ header {
     background-color: $custom-red;
 
     svg {
-            fill: white;
-            width: 132px;
-            height: 20px;
-            margin: 20px;
-        }
+      fill: white;
+      width: 132px;
+      height: 20px;
+      margin: 20px;
+    }
 
-        .big-header {
-            margin: 10px 0 10px 0;
+    .big-header {
+      margin: 10px 0 10px 0;
         }
 
         .btn-yellow {
-            background-color: yellow;
+        background-color: yellow;
             height: fit-content;
             border: 0;
             margin-left: 0 !important;
