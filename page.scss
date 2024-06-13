@@ -2,9 +2,9 @@ $custom-red: rgb(255, 29, 29);
 $custom-white: white;
 
 body {
-  width: 100%;
-   height: fit-content;
-    box-sizing: border-box;
+  width:100%;
+  height: fit-content;
+  box-sizing: border-box;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     .red-header {
         background-color: $custom-red;
 
-        svg {
+    svg {
             fill: white;
             width: 132px;
             height: 20px;
