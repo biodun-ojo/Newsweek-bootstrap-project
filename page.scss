@@ -90,15 +90,15 @@ footer {
           margin: 0 10px 0 10px;
         }
       }
-}
+    }
 
     .foot-bottom {
       padding: 20px 0 0 0;
       list-style-type: none;
       gap: 10px;
       font-size: 14px;
-      line-height: 15px; 
-                 
+      line-height: 15px;
+        
       li {
         margin: 0 10px 0 0;
         width: fit-content;
@@ -114,7 +114,7 @@ footer {
     border: none;
     color: white;
     font-size: 18px;
-    font: bold;
+    font-style: bold;
   }
 
   .person {
@@ -131,7 +131,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-               
+      
         .svg-2 {
           margin-bottom: 0;
         }
@@ -152,7 +152,7 @@ footer {
       li {
         border-right: solid 1px #d9d9d9;
         padding-right: 10px;
-        margin-left: 0 !important;         
+        margin-left: 0 !important; 
       }
     }
 
@@ -174,6 +174,7 @@ footer {
         align-self: end;
         margin: 0 0 20px 20px;
       }
+
       .svg {
         width: 396px;
         height: 60px;
@@ -190,7 +191,8 @@ footer {
 
     .two-navs {
       display: block;
-      color: black;            
+      color: black;
+    
       .white-div {
         position: relative;
         bottom: 10px;
@@ -222,7 +224,7 @@ footer {
 
           li {
             width: fit-content;
-        }
+          }
         }
       }
     }
