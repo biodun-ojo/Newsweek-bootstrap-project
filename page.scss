@@ -23,28 +23,27 @@ header {
 
     .big-header {
       margin: 10px 0 10px 0;
-        }
-
-        .btn-yellow {
-        background-color: yellow;
-            height: fit-content;
-            border: 0;
-            margin-left: 0 !important;
-            margin-right: 0 !important;
-            border-radius: 50px;
-        }
-
-        .buttton {
-            height: 30px;
-            width: 30px;
-        }
     }
 
-    .two-navs {
-        display: none;
+    .btn-yellow {
+      background-color: yellow;
+      height: fit-content;
+      border: 0;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      border-radius: 50px;
     }
+
+    .buttton {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .two-navs {
+    display: none;
+  }
 }
-
 
 footer {
 
