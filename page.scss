@@ -73,33 +73,31 @@ footer {
   }
 
   hr {
-    width:100%;
-    text-align:left;
-    margin-left:0;
-    }
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+  }
 
-    .section-2 {
-
+  .section-2 {
         .sec-2-body {
+      .fotedition  {
+        list-style-type: none;
+        gap: 10px;
+        font-size: 14px;
+        line-height: 15px;
 
-            .fotedition  {
-                list-style-type: none;
-                gap: 10px;
-                font-size: 14px;
-                line-height: 15px;
-
-                li {
-                    margin: 0 10px 0 10px;
-                }
-            }
+        li {
+          margin: 0 10px 0 10px;
         }
+      }
+   }
 
-        .foot-bottom {
-            padding: 20px 0 0 0;
-            list-style-type: none;
-            gap: 10px;
-            font-size: 14px;
-            line-height: 15px;
+    .foot-bottom {
+      padding: 20px 0 0 0;
+      list-style-type: none;
+      gap: 10px;
+      font-size: 14px;
+      line-height: 15px;
             
             li {
                 margin: 0 10px 0 0;
