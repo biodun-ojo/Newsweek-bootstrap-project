@@ -14,7 +14,7 @@ header {
   .red-header {
     background-color: $custom-red;
 
-    svg {
+    .svg {
       fill: white;
       width: 132px;
       height: 20px;
@@ -48,7 +48,7 @@ header {
 footer {
   .section-1 {
     .div-1 {
-      svg {
+      .svg-2 {
         display: block;
         width: 236px;
         height: 36px;
@@ -137,7 +137,7 @@ footer {
                 justify-content: space-between;
                 
 
-                svg {
+                .svg-2 {
                     margin-bottom: 0;
                 }
 
@@ -184,7 +184,7 @@ footer {
                 margin: 0 0 20px 20px;
             }
     
-            svg {
+            .svg {
                 width: 396px;
                 height: 60px
             }
