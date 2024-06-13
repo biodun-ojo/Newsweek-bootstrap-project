@@ -98,6 +98,11 @@ footer {
       gap: 10px;
       font-size: 14px;
       line-height: 15px;
+
+      li {
+        margin: 0 10px 0 0;
+        width: fit-content;
+      }
     }
   }
 }

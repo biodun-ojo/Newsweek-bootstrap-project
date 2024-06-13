@@ -80,6 +80,12 @@ footer .section-2 .foot-bottom {
   font-size: 14px;
   line-height: 15px;
 }
+footer .section-2 .foot-bottom li {
+  margin: 0 10px 0 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 
 @media (min-width: 767px) {
   .logs {
