@@ -73,14 +73,14 @@ footer .section-2 .sec-2-body .fotedition {
 footer .section-2 .sec-2-body .fotedition li {
   margin: 0 10px 0 10px;
 }
-footer .section-2 .foot-bottom {
+footer .foot-bottom {
   padding: 20px 0 0 0;
   list-style-type: none;
   gap: 10px;
   font-size: 14px;
   line-height: 15px;
 }
-footer .section-2 .foot-bottom li {
+footer .foot-bottom li {
   margin: 0 10px 0 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;

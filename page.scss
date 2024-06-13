@@ -91,18 +91,18 @@ footer {
         }
       }
     }
+  }
 
-    .foot-bottom {
-      padding: 20px 0 0 0;
-      list-style-type: none;
-      gap: 10px;
-      font-size: 14px;
-      line-height: 15px;
+  .foot-bottom {
+    padding: 20px 0 0 0;
+    list-style-type: none;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 15px;
 
-      li {
-        margin: 0 10px 0 0;
-        width: fit-content;
-      }
+    li {
+      margin: 0 10px 0 0;
+      width: fit-content;
     }
   }
 }
