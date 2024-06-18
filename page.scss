@@ -5,6 +5,8 @@ body {
   width: 100%;
   height: fit-content;
   box-sizing: border-box;
+  line-height: 18px;
+  font-size: 13px;
 }
 
 header {
@@ -46,6 +48,21 @@ header {
 }
 
 //tolu side
+.top-story {
+  .top-st-1 {
+    .sub-together {
+      position: relative;
+
+      .sub {
+        position: absolute;
+        color: white;
+        z-index: 1;
+        bottom: 0;
+      }
+    }
+  }
+}
+
 
 //kareem side
 

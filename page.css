@@ -5,6 +5,8 @@ body {
   height: fit-content;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  line-height: 18px;
+  font-size: 13px;
 }
 
 header {
@@ -39,6 +41,16 @@ header .red-header .buttton {
 }
 header .two-navs {
   display: none;
+}
+
+.top-story .top-st-1 .sub-together {
+  position: relative;
+}
+.top-story .top-st-1 .sub-together .sub {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  bottom: 0;
 }
 
 footer .section-1 .div-1 .svg-2 {
