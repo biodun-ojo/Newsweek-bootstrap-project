@@ -1,10 +1,10 @@
 # Newsweek-bootstrap-project
-> A [NewScientist Article](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) page clone milestone 
+> A [NewsWeek Article](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) page clone milestone 
 
 ![screenshot](/images/Newsweek.png)
 
 ## Built With 
-HTML <br> CSS
+HTML <br> CSS <br> SASS <br> Bootstrap
 
 ## Live Demo
 
