@@ -158,7 +158,41 @@ header {
 
 
 //kareem side
+.n-title {
+  text-transform: uppercase;
+  justify-content: center;
+  font: bold;
+  text-align: center;
+  display: flex;
+}
 
+.flex-column {
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  .bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    color: red ;
+  }
+}
+
+.category {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+
+  div {
+    background-color: red;
+    color: white;
+    padding:0 7px;
+    margin-right: 7px;
+  }
+}
 
 footer {
   .section-1 {
