@@ -133,6 +133,12 @@ header .two-navs {
   font: bold;
   text-align: center;
   display: flex;
+  padding: 10px 10px 10px 12px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .flex-column {
@@ -146,6 +152,11 @@ header .two-navs {
   left: 0px;
   background-color: white;
   color: red;
+  padding: 5px 15px;
+  z-index: 1;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 16px;
 }
 
 .category {
@@ -159,6 +170,7 @@ header .two-navs {
   color: white;
   padding: 0 7px;
   margin-right: 7px;
+  display: inline-block;
 }
 
 footer .section-1 .div-1 .svg-2 {

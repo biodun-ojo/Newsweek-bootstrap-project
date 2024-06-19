@@ -164,6 +164,12 @@ header {
   font: bold;
   text-align: center;
   display: flex;
+  padding: 10px 10px 10px 12px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .flex-column {
@@ -177,6 +183,11 @@ header {
     left: 0px;
     background-color: white;
     color: red ;
+    padding: 5px 15px;
+    z-index: 1;
+    font-size:  17px;
+    font-weight: bold;
+    line-height: 16px;
   }
 }
 
@@ -185,12 +196,16 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0;
+  
+  
 
   div {
     background-color: red;
     color: white;
     padding:0 7px;
     margin-right: 7px;
+    display: inline-block;
+   
   }
 }
 
