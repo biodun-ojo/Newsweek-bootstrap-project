@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("assests/fonts/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
+}
 body {
   width: 100%;
   height: -webkit-fit-content;
@@ -27,15 +31,24 @@ header .red-header .big-header {
 }
 header .red-header .btn-yellow {
   background-color: yellow;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 24px;
   border: 0;
   margin-left: 0 !important;
   margin-right: 0 !important;
   border-radius: 50px;
+  font-family: "Roboto-Condensed";
 }
-header .red-header .buttton {
+header .red-header .person {
+  margin-right: 30px;
+}
+header .red-header .person .person-img {
+  height: 30px;
+  width: 30px;
+}
+header .red-header .bars {
+  margin-left: 15px;
+}
+header .red-header .bars .bars-img {
   height: 30px;
   width: 30px;
 }
@@ -58,6 +71,12 @@ header .two-navs {
 .top-story .top-st-1 h2 {
   font-size: 22px;
   line-height: 24px;
+  font-family: "Roboto-Condensed";
+}
+
+.middle-1 {
+  height: 20px !important;
+  background-color: #c2c2c2;
 }
 
 .featured-story-divs .featured-story-sub-divs {
@@ -75,6 +94,40 @@ header .two-navs {
 .featured-story-divs h2 {
   font-size: 22px;
   line-height: 24px;
+  font-family: "Roboto-Condensed";
+}
+
+.middle-2 {
+  height: 20px !important;
+  background-color: #c2c2c2;
+}
+
+.debate-whole {
+  border-top: #c2c2c2 5px solid;
+  border-bottom: #c2c2c2 5px solid;
+}
+.debate-whole .debate-sub-div-1 .debate-img-1 {
+  margin-right: 20px;
+}
+.debate-whole .two-mini {
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.debate-whole .two-mini hr {
+  position: absolute;
+  bottom: 1px;
+}
+.debate-whole .two-mini div {
+  position: relative;
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  padding: 5px;
 }
 
 footer .section-1 .div-1 .svg-2 {
