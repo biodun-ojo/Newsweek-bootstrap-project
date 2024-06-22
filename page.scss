@@ -27,6 +27,9 @@ body {
 header {
   color: $custom-white;
   width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 
   .red-header {
     background-color: $custom-red;
@@ -480,7 +483,18 @@ footer {
   }
 
   //tolu side
+  .tolu-row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 
+    
+
+    .featured-story {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
 
   //kareem side 
 

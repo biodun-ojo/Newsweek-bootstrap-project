@@ -4,9 +4,11 @@
 }
 body {
   width: 100%;
+  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   line-height: 18px;
   font-size: 13px;
 }
@@ -14,6 +16,9 @@ body {
 header {
   color: white;
   width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 header .red-header {
   background-color: rgb(255, 29, 29);
@@ -119,6 +124,7 @@ header .two-navs {
 .debate-whole .two-mini div {
   position: relative;
   margin: 0 auto;
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: white;
@@ -173,6 +179,7 @@ header .two-navs {
 }
 .ms-div .ms-two h4 {
   font-size: 17px;
+  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   font-family: "Roboto-Condensed";
@@ -201,6 +208,7 @@ header .two-navs {
 }
 .ln-div .ln-two h4 {
   font-size: 17px;
+  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   font-family: "Roboto-Condensed";
@@ -246,9 +254,13 @@ header .two-navs {
 
 .n-title {
   text-transform: uppercase;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font: bold;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 10px 10px 10px 12px;
 }
@@ -277,6 +289,8 @@ h5 {
 }
 
 .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -300,7 +314,8 @@ h5 {
   position: absolute;
   top: 35%;
   left: 60%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .block-title {
@@ -366,6 +381,7 @@ footer .foot-bottom {
 }
 footer .foot-bottom li {
   margin: 0 10px 0 0;
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -391,25 +407,49 @@ footer .section-2 .sec-2-body .fotedition li {
   .person {
     display: none;
   }
+  .tolu-row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .tolu-row .featured-story {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   footer .section-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   footer .section-1 .div-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   footer .section-1 .div-1 .svg-2 {
     margin-bottom: 0;
   }
   footer .section-1 .div-1 .fot-p {
-    align-self: end;
+    -ms-flex-item-align: end;
+        align-self: end;
     margin-bottom: 0 !important;
   }
   footer .section-1 .fotsocials {
-    align-self: end;
+    -ms-flex-item-align: end;
+        align-self: end;
     margin-left: auto;
   }
   footer .fotedition li {
@@ -426,7 +466,8 @@ footer .section-2 .sec-2-body .fotedition li {
 @media (min-width: 1023px) {
   header .red-header small {
     display: block !important;
-    align-self: end;
+    -ms-flex-item-align: end;
+        align-self: end;
     margin: 0 0 20px 20px;
   }
   header .red-header .svg {
@@ -457,6 +498,7 @@ footer .section-2 .sec-2-body .fotedition li {
   }
   header .two-navs .white-div .white-div-1 li {
     padding-left: 10px;
+    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     text-align: center;
@@ -468,10 +510,13 @@ footer .section-2 .sec-2-body .fotedition li {
     list-style-type: none;
     gap: 10px;
     border-bottom: solid 1px #d9d9d9;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 10px 0 10px 30px;
   }
   header .two-navs .white-div .white-div-2 li {
+    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
