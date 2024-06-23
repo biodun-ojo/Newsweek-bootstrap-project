@@ -4,11 +4,9 @@
 }
 body {
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   line-height: 18px;
   font-size: 13px;
 }
@@ -124,7 +122,6 @@ header .two-navs {
 .debate-whole .two-mini div {
   position: relative;
   margin: 0 auto;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: white;
@@ -179,7 +176,6 @@ header .two-navs {
 }
 .ms-div .ms-two h4 {
   font-size: 17px;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   font-family: "Roboto-Condensed";
@@ -208,7 +204,6 @@ header .two-navs {
 }
 .ln-div .ln-two h4 {
   font-size: 17px;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   font-family: "Roboto-Condensed";
@@ -254,13 +249,9 @@ header .two-navs {
 
 .n-title {
   text-transform: uppercase;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font: bold;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 10px 10px 10px 12px;
 }
@@ -289,19 +280,22 @@ h5 {
 }
 
 .category {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0;
+  color: #f72210;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
 }
 .category div {
   background-color: red;
   color: white;
-  padding: 0 7px;
+  padding: 0 10px;
   margin-right: 7px;
-  display: inline-block;
+  padding-top: 9px;
+}
+.category p {
+  padding-top: 9px;
 }
 
 .fun-image {
@@ -314,8 +308,7 @@ h5 {
   position: absolute;
   top: 35%;
   left: 60%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .block-title {
@@ -343,10 +336,6 @@ h5 {
   color: white;
   padding: 10px 10px 10px 12px;
   border-radius: 3px;
-}
-.f1-info button .plain-btn {
-  background-color: white;
-  color: black;
 }
 
 footer .section-1 .div-1 .svg-2 {
@@ -381,7 +370,6 @@ footer .foot-bottom {
 }
 footer .foot-bottom li {
   margin: 0 10px 0 0;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -416,40 +404,24 @@ footer .section-2 .sec-2-body .fotedition li {
     padding-right: 15px;
   }
   footer .section-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
   footer .section-1 .div-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
   footer .section-1 .div-1 .svg-2 {
     margin-bottom: 0;
   }
   footer .section-1 .div-1 .fot-p {
-    -ms-flex-item-align: end;
-        align-self: end;
+    align-self: end;
     margin-bottom: 0 !important;
   }
   footer .section-1 .fotsocials {
-    -ms-flex-item-align: end;
-        align-self: end;
+    align-self: end;
     margin-left: auto;
   }
   footer .fotedition li {
@@ -466,8 +438,7 @@ footer .section-2 .sec-2-body .fotedition li {
 @media (min-width: 1023px) {
   header .red-header small {
     display: block !important;
-    -ms-flex-item-align: end;
-        align-self: end;
+    align-self: end;
     margin: 0 0 20px 20px;
   }
   header .red-header .svg {
@@ -498,7 +469,6 @@ footer .section-2 .sec-2-body .fotedition li {
   }
   header .two-navs .white-div .white-div-1 li {
     padding-left: 10px;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     text-align: center;
@@ -510,13 +480,10 @@ footer .section-2 .sec-2-body .fotedition li {
     list-style-type: none;
     gap: 10px;
     border-bottom: solid 1px #d9d9d9;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding: 10px 0 10px 30px;
   }
   header .two-navs .white-div .white-div-2 li {
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
