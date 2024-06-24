@@ -311,6 +311,7 @@ header {
 h5 {
   font-size: 16px;
   line-height: 16px;
+  padding-bottom: 15px;
 }
 
 .flex-column {
@@ -502,6 +503,10 @@ footer {
   
 
   //kareem side 
+  .newsweek-mag {
+    display: flex;
+    justify-content: space-between;
+  }
 
 
   footer {
