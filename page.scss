@@ -314,6 +314,8 @@ h5 {
   padding-bottom: 15px;
 }
 
+
+
 .flex-column {
   position: relative;
   width: 100%;
@@ -403,9 +405,6 @@ h5 {
 
 }
 
-.form-text {
-  
-}
 
 
 
@@ -505,8 +504,49 @@ footer {
   //kareem side 
   .newsweek-mag {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
+
+    .flex-columns {
+      display: flex;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .flex-cols {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      w-100 {
+        width: fit-content;
+      }
+    }
   }
+
+  .flex-sm-3 {
+    width: 25%;
+    padding-top: 30px;
+    
+    h4 {
+      margin-top: 0;
+      text-align: center;
+      padding: 10px 10px 10px 12px;
+      font: bold 18px / 18px "Roboto Condensed", sans-serif;
+      
+    
+      
+    }
+  }
+
+
+
+  .flex-colls {
+    padding-top: 30px;
+   
+  }
+
+
+  
 
 
   footer {
