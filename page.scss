@@ -543,12 +543,12 @@ footer {
   .fun-image {
     display: flex;
     justify-content: space-between;
-    }
+    
 
     .half-right {
       position: absolute;
       right: 20%;
-      top: 10%;
+      top: 0%;
     }
 
   }
@@ -557,13 +557,22 @@ footer {
     padding-left: 30px;
     text-align: start;
     padding-top: 15px;
+<<<<<<< Updated upstream
     
     button {
       justify-content: center;
+=======
+
+  }
+      button {
+        justify-content: center;
+>>>>>>> Stashed changes
        
     }
     
   }
+
+ 
 
   
   //footer
