@@ -281,22 +281,8 @@ h5 {
 }
 
 .category {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 0;
   color: #f72210;
   font: bold 16px/26px "Roboto Condensed", sans-serif;
-}
-.category div {
-  background-color: red;
-  color: white;
-  padding: 0 10px;
-  margin-right: 7px;
-  padding-top: 9px;
-}
-.category p {
-  padding-top: 9px;
 }
 
 .fun-image {
@@ -312,31 +298,28 @@ h5 {
   transform: translate(-50%, -50%);
 }
 
-.block-title {
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 11px;
-  color: #f72210;
-}
-
-.f1-info {
+.f1-info, .f1-infos {
   height: 250px;
   text-align: center;
 }
-.f1-info h3 {
+.f1-info h3, .f1-infos h3 {
   position: relative;
   color: black;
   line-height: 28px;
   margin-bottom: 15px;
   font-weight: bold;
 }
-.f1-info button {
+.f1-info button, .f1-infos button {
   position: relative;
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   background-color: #f72310;
   color: white;
   padding: 10px 10px 10px 12px;
   border-radius: 3px;
+}
+
+.email-signup {
+  display: flex;
 }
 
 footer .section-1 .div-1 .svg-2 {
@@ -404,35 +387,6 @@ footer .section-2 .sec-2-body .fotedition li {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .newsweek-mag {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-    padding-top: 15px;
-  }
-  .flex-columns {
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .flex-cols {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .flex-sm-3 {
-    width: 25%;
-    padding-top: 30px;
-  }
-  .flexs-columns {
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .flexs-columns .flex-cols {
-    justify-content: center;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
   .sign-btns {
     justify-content: center;
   }
@@ -440,9 +394,24 @@ footer .section-2 .sec-2-body .fotedition li {
     display: flex;
     justify-content: space-between;
   }
+  .fun-image .half-right {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
   .f1-info {
     padding-left: 30px;
     text-align: start;
+    padding-top: 15px;
+    padding-left: 70px;
+  }
+  .f1-info button {
+    justify-content: center;
+    padding-right: 20px;
+  }
+  .f1-infos {
+    padding-left: 30px;
+    text-align: center;
     padding-top: 15px;
   }
   footer .section-1 {

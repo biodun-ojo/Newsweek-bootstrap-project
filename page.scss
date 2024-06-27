@@ -336,27 +336,10 @@ h5 {
 }
 
 .category {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 0;
   color: #f72210;
   font: bold 16px / 26px "Roboto Condensed", sans-serif;
   
-  
 
-  div {
-    background-color: red;
-    color: white;
-    padding:0 10px;
-    margin-right: 7px;
-    padding-top: 9px;
-   
-  }
-
-  p {
-    padding-top: 9px;
-  }
 }
 
 .fun-image {
@@ -372,17 +355,10 @@ h5 {
     transform: translate(-50%, -50%);
   }
 
-}
 
 
-.block-title {
-  font: bold 16px / 16px "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 11px;
-    color: #f72210;
-}
 
-.f1-info {
+.f1-info, .f1-infos {
   height: 250px;
   text-align: center;
   
@@ -394,6 +370,8 @@ h5 {
     font-weight: bold;
   }
 
+  
+
   button {
     position: relative;
     font: bold 18px / 18px "Roboto Condensed", sans-serif;
@@ -403,6 +381,13 @@ h5 {
     border-radius: 3px;
   }
 
+}
+
+
+
+.newletter-email {
+  display: flex;
+  width: 150px;
 }
 
 
@@ -498,43 +483,7 @@ footer {
     }
   }
   
-
-  //kareem side 
-  .newsweek-mag {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-    padding-top: 15px;
-  }
-
-  .flex-columns {
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .flex-cols {
-    padding-left: 15px;
-    padding-right: 15px;
-
-  }
-
-  .flex-sm-3 {
-    width: 25%;
-    padding-top: 30px;
-  }
-
-  .flexs-columns {
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    .flex-cols {
-      justify-content: center;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  }
+  
 
   .sign-btns {
     justify-content: center;
@@ -547,8 +496,8 @@ footer {
 
     .half-right {
       position: absolute;
-      right: 20%;
-      top: 0%;
+      top: 50%;
+      left: 20%;
     }
 
   }
@@ -557,18 +506,21 @@ footer {
     padding-left: 30px;
     text-align: start;
     padding-top: 15px;
-<<<<<<< Updated upstream
+    padding-left: 70px;
     
     button {
       justify-content: center;
-=======
-
-  }
-      button {
-        justify-content: center;
->>>>>>> Stashed changes
+      padding-right: 20px;
        
     }
+    
+  }
+
+  .f1-infos {
+    padding-left: 30px;
+    text-align: center;
+    padding-top: 15px;
+
     
   }
 
