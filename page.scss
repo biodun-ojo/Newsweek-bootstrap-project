@@ -505,45 +505,74 @@ footer {
   .newsweek-mag {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
 
+  .flex-columns {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-    .flex-columns {
-      display: flex;
-      padding-left: 15px;
-      padding-right: 15px;
+  .flex-cols {
+    padding-left: 15px;
+    padding-right: 15px;
 
-      .flex-cols {
-        padding-left: 15px;
-        padding-right: 15px;
-      }
-
-      w-100 {
-        width: fit-content;
-      }
-    }
   }
 
   .flex-sm-3 {
     width: 25%;
     padding-top: 30px;
-    
-    h4 {
-      margin-top: 0;
-      text-align: center;
-      padding: 10px 10px 10px 12px;
-      font: bold 18px / 18px "Roboto Condensed", sans-serif;
-      
-    
-      
+  }
+
+  .flexs-columns {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .flex-cols {
+      justify-content: center;
+      padding-left: 15px;
+      padding-right: 15px;
     }
   }
 
-
-
-  .flex-colls {
-    padding-top: 30px;
-   
+  .sign-btns {
+    justify-content: center;
   }
+
+  .fun-image {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .half-right {
+      position: absolute;
+      right: 20%;
+      top: 10%;
+    }
+
+  }
+
+  .f1-info {
+    padding-left: 30px;
+    text-align: start;
+    padding-top: 15px;
+
+    {
+      button {
+        justify-content: center;
+       
+      }
+    }
+  }
+
+  
+
+
+
+  
 
 
   
