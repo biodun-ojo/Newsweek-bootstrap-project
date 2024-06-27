@@ -202,10 +202,12 @@ header {
   padding-top: 14px;
   padding-bottom: 14px;
   border-top: 1px solid #ddd;
+  display: flex;
 
   img {
     margin-right: 15px;
-    float: left;
+    height: 95px;
+    width: 95px;
   }
 
   .ms-two {
@@ -354,7 +356,7 @@ h5 {
     left: 60%;
     transform: translate(-50%, -50%);
   }
-
+}
 
 
 
