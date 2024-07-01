@@ -247,7 +247,7 @@ header {
     h4 {
       font-size: 17px;
       height: fit-content;
-      font-family: 'Roboto-Condensed';
+      font-family: 'Roboto-Condensed', sans-serif;
     }
 
     div {
@@ -300,7 +300,7 @@ header {
 
 //kareem side
 .kareem-div {
-  font-family: 'Roboto-Condensed';
+  font-family: 'Roboto-Condensed', sans-serif;
 }
 
 .n-title {
@@ -325,8 +325,8 @@ h5 {
 
   .bottom-left {
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     background-color: white;
     color: red;
     padding: 5px 15px;
@@ -340,8 +340,6 @@ h5 {
 .category {
   color: #f72210;
   font: bold 16px / 26px "Roboto Condensed", sans-serif;
-
-
 }
 
 .fun-image {
@@ -489,7 +487,6 @@ footer {
   }
 
   .f1-info {
-    padding-left: 30px;
     text-align: start;
     padding-top: 15px;
     padding-left: 70px;

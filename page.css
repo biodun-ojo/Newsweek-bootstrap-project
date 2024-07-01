@@ -215,7 +215,7 @@ header .two-navs {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed", sans-serif;
 }
 .ln-div .ln-two div {
   font-family: Arial, Helvetica, sans-serif;
@@ -257,7 +257,7 @@ header .two-navs {
 }
 
 .kareem-div {
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed", sans-serif;
 }
 
 .n-title {
@@ -286,8 +286,8 @@ h5 {
 }
 .flex-column .bottom-left {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   background-color: white;
   color: red;
   padding: 5px 15px;
@@ -431,7 +431,6 @@ footer .section-2 .sec-2-body .fotedition li {
     left: 20%;
   }
   .f1-info {
-    padding-left: 30px;
     text-align: start;
     padding-top: 15px;
     padding-left: 70px;
