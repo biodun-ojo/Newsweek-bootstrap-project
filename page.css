@@ -39,7 +39,7 @@ header .red-header .btn-yellow {
   margin-left: 0 !important;
   margin-right: 0 !important;
   border-radius: 50px;
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed", sans-serif;
 }
 header .red-header .person {
   margin-right: 30px;
@@ -74,7 +74,7 @@ header .two-navs {
 .top-story .top-st-1 h2 {
   font-size: 22px;
   line-height: 24px;
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed", sans-serif;
 }
 
 .middle-1 {
@@ -97,7 +97,7 @@ header .two-navs {
 .featured-story-divs h2 {
   font-size: 22px;
   line-height: 24px;
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed", sans-serif;
 }
 
 .middle-2 {
@@ -140,7 +140,7 @@ header .two-navs {
 
 .opinion-sub-main-div {
   border-bottom: #ddd 1px solid;
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed", sans-serif;
 }
 .opinion-sub-main-div .opinion-img {
   height: 68px;
@@ -186,7 +186,7 @@ header .two-navs {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed", sans-serif;
 }
 .ms-div .ms-two div {
   font-family: Arial, Helvetica, sans-serif;
@@ -248,7 +248,7 @@ header .two-navs {
   bottom: 0;
   left: 0;
   background-color: #c2d4d7;
-  padding: 0px 6px;
+  padding: 0 6px;
 }
 .culntra-divs p {
   color: rgba(3, 3, 3, 0.5);

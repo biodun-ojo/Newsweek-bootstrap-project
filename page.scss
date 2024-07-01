@@ -12,7 +12,7 @@ $custom-white: white;
   z-index: 1;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 5px 15px;
 }
 
@@ -52,7 +52,7 @@ header {
       margin-left: 0 !important;
       margin-right: 0 !important;
       border-radius: 50px;
-      font-family: 'Roboto-Condensed';
+      font-family: 'Roboto-Condensed', sans-serif;
     }
 
     .person {
@@ -94,7 +94,7 @@ header {
     h2 {
       font-size: 22px;
       line-height: 24px;
-      font-family: 'Roboto-Condensed';
+      font-family: 'Roboto-Condensed', sans-serif;
     }
   }
 }
@@ -116,7 +116,7 @@ header {
   h2 {
     font-size: 22px;
     line-height: 24px;
-    font-family: 'Roboto-Condensed';
+    font-family: 'Roboto-Condensed', sans-serif;
   }
 }
 
@@ -166,7 +166,7 @@ header {
 
 .opinion-sub-main-div {
   border-bottom: #ddd 1px solid;
-  font-family: 'Roboto-Condensed';
+  font-family: 'Roboto-Condensed', sans-serif;
 
   .opinion-img {
     height: 68px;
@@ -193,7 +193,7 @@ header {
   font-size: 16px;
   font-family: 'Roboto-Condensed', sans-serif;
   font-weight: bold;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
   padding-bottom: 11px;
 }
 
@@ -214,7 +214,7 @@ header {
     h4 {
       font-size: 17px;
       height: fit-content;
-      font-family: 'Roboto-Condensed';
+      font-family: 'Roboto-Condensed', sans-serif;
     }
 
     div {
@@ -228,7 +228,7 @@ header {
   font-size: 16px;
   font-family: 'Roboto-Condensed', sans-serif;
   font-weight: bold;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
   padding-bottom: 11px;
 }
 
@@ -260,12 +260,12 @@ header {
 .turn-heading {
   font-size: 16px;
   font-family: 'Roboto-Condensed', sans-serif;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .turn-mini-div {
   p {
-    color: rgba(3, 3, 3, .5);
+    color: rgba(3, 3, 3, 0.5);
     font-size: 16px;
     font-family: 'Roboto-Condensed', sans-serif;
   }
@@ -274,7 +274,7 @@ header {
 .culntra-heading {
   font-size: 16px;
   font-family: 'Roboto-Condensed', sans-serif;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .culntra-divs {
@@ -287,18 +287,16 @@ header {
       bottom: 0;
       left: 0;
       background-color: #c2d4d7;
-      padding: 0px 6px;
+      padding: 0 6px;
     }
   }
 
   p {
-    color: rgba(3, 3, 3, .5);
+    color: rgba(3, 3, 3, 0.5);
     font-size: 16px;
     font-family: 'Roboto-Condensed', sans-serif;
   }
 }
-
-
 
 //kareem side
 .kareem-div {
@@ -319,8 +317,6 @@ h5 {
   line-height: 16px;
   padding-bottom: 15px;
 }
-
-
 
 .flex-column {
   position: relative;
@@ -362,8 +358,6 @@ h5 {
   }
 }
 
-
-
 .f1-info,
 .f1-infos {
   height: 250px;
@@ -377,8 +371,6 @@ h5 {
     font-weight: bold;
   }
 
-
-
   button {
     position: relative;
     font: bold 18px / 18px "Roboto Condensed", sans-serif;
@@ -387,21 +379,12 @@ h5 {
     padding: 10px 10px 10px 12px;
     border-radius: 3px;
   }
-
 }
-
-
 
 .newletter-email {
   display: flex;
   width: 120px;
 }
-
-
-
-
-
-
 
 footer {
   .section-1 {
@@ -490,8 +473,6 @@ footer {
     }
   }
 
-
-
   .sign-btns {
     justify-content: center;
   }
@@ -500,13 +481,11 @@ footer {
     display: flex;
     justify-content: space-between;
 
-
     .half-right {
       position: absolute;
       top: 50%;
       left: 20%;
     }
-
   }
 
   .f1-info {
@@ -518,21 +497,14 @@ footer {
     button {
       justify-content: center;
       padding-right: 20px;
-
     }
-
   }
 
   .f1-infos {
     padding-left: 30px;
     text-align: center;
     padding-top: 15px;
-
-
   }
-
-
-
 
   //footer
   footer {
