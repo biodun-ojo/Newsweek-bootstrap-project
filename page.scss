@@ -81,6 +81,22 @@ header {
 
 //tolu side
 //top story
+.featured-story-divs {
+  .featured-story-sub-divs {
+    position: relative;
+
+    .miniz {
+      @include top-divs-together;
+    }
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 24px;
+    font-family: 'Roboto-Condensed', sans-serif;
+  }
+}
+
 .top-story {
   .top-st-1 {
     .sub-together {
@@ -102,22 +118,6 @@ header {
 .middle-1 {
   height: 20px !important;
   background-color: #c2c2c2;
-}
-
-.featured-story-divs {
-  .featured-story-sub-divs {
-    position: relative;
-
-    .miniz {
-      @include top-divs-together;
-    }
-  }
-
-  h2 {
-    font-size: 22px;
-    line-height: 24px;
-    font-family: 'Roboto-Condensed', sans-serif;
-  }
 }
 
 //debate div
