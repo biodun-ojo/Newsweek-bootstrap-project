@@ -302,9 +302,13 @@ header .two-navs {
   padding: 10px 10px 10px 12px;
 }
 
-h5 {
-  font-size: 16px;
-  line-height: 16px;
+.AB-H {
+  font-size: 18px;
+}
+
+.AB {
+  font-size: 20px;
+  line-height: 20px;
   padding-bottom: 15px;
 }
 
@@ -325,6 +329,17 @@ h5 {
   font-size: 17px;
   font-weight: bold;
   line-height: 16px;
+}
+
+.CD {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.EG {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .category {
