@@ -396,11 +396,10 @@ header {
 .img-fluid {
   max-width: 100%;
   height: auto;
-
-  .start-0 {
+}
+.start-0 {
     left: 0;
   }
-}
 
 .newletter-email {
   display: flex;
