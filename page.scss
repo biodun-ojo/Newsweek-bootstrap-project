@@ -336,6 +336,8 @@ header {
   }
 }
 
+
+
 .CD {
   font-size: 24px;
   line-height: 24px;
@@ -392,15 +394,42 @@ header {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  float: left;
 }
-.start-0 {
-  left: 0;
-  }
+
 
 .newletter-email {
   display: flex;
   width: 120px;
 }
+
+/* Subscribe & Newsletter */
+.font-subscribe-newsletter {
+  font-size: 15px;
+}
+
+.newsletter-image {
+  height: 200px;
+  width: -webkit-fill-available;
+}
+
+.newsletter-email {
+  width: 150px;
+}
+
+.free-sign-up {
+  font-size: 14px;
+  width: 150px;
+  padding: 11px 0 10px 0;
+  position: relative;
+  right: 0.4em;
+}
+
+.font-starting {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
 
 footer {
   .section-1 {
@@ -635,3 +664,4 @@ footer {
 //tolu side
 
 //kareem side
+
