@@ -2,7 +2,6 @@
   font-family: "Roboto-Condensed";
   src: url("assests/fonts/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
 }
-
 body {
   width: 100%;
   height: -moz-fit-content;
@@ -18,22 +17,18 @@ header {
   top: 0;
   z-index: 2;
 }
-
 header .red-header {
   background-color: rgb(255, 29, 29);
 }
-
 header .red-header .svg {
   fill: white;
   width: 132px;
   height: 20px;
   margin: 20px;
 }
-
 header .red-header .big-header {
   margin: 10px 0 10px 0;
 }
-
 header .red-header .btn-yellow {
   background-color: yellow;
   height: 24px;
@@ -43,17 +38,14 @@ header .red-header .btn-yellow {
   border-radius: 50px;
   font-family: "Roboto-Condensed", sans-serif;
 }
-
 header .red-header .person .person-img {
   height: 30px;
   width: 30px;
 }
-
 header .red-header .bars .bars-img {
   height: 30px;
   width: 30px;
 }
-
 header .two-navs {
   display: none;
 }
@@ -61,7 +53,6 @@ header .two-navs {
 .featured-story-divs .featured-story-sub-divs {
   position: relative;
 }
-
 .featured-story-divs .featured-story-sub-divs .miniz {
   position: absolute;
   color: #f72210;
@@ -71,7 +62,6 @@ header .two-navs {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 5px 15px;
 }
-
 .featured-story-divs h2 {
   font-size: 22px;
   line-height: 24px;
@@ -81,7 +71,6 @@ header .two-navs {
 .top-story .top-st-1 .sub-together {
   position: relative;
 }
-
 .top-story .top-st-1 .sub-together .sub {
   position: absolute;
   color: #f72210;
@@ -91,7 +80,6 @@ header .two-navs {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 5px 15px;
 }
-
 .top-story .top-st-1 h2 {
   font-size: 22px;
   line-height: 24px;
@@ -112,22 +100,18 @@ header .two-navs {
   border-top: #c2c2c2 5px solid;
   border-bottom: #c2c2c2 5px solid;
 }
-
 .debate-whole .debate-sub-div-1 .debate-img-1 {
   margin-right: 20px;
 }
-
 .debate-whole .two-mini {
   height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 .debate-whole .two-mini hr {
   position: absolute;
   bottom: 1px;
 }
-
 .debate-whole .two-mini div {
   position: relative;
   margin: 0 auto;
@@ -148,16 +132,13 @@ header .two-navs {
   border-bottom: #ddd 1px solid;
   font-family: "Roboto-Condensed", sans-serif;
 }
-
 .opinion-sub-main-div .opinion-img {
   height: 68px;
   margin-right: 10px;
 }
-
 .opinion-sub-main-div .two-p {
   height: 68px;
 }
-
 .opinion-sub-main-div .two-p .two-p-1 {
   font-size: 17px;
   margin-bottom: 10px;
@@ -183,20 +164,17 @@ header .two-navs {
   border-top: 1px solid #ddd;
   display: flex;
 }
-
 .ms-div img {
   margin-right: 15px;
   height: 95px;
   width: 95px;
 }
-
 .ms-div .ms-two h4 {
   font-size: 17px;
   height: -moz-fit-content;
   height: fit-content;
   font-family: "Roboto-Condensed", sans-serif;
 }
-
 .ms-div .ms-two div {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -215,19 +193,16 @@ header .two-navs {
   padding-bottom: 14px;
   border-top: 1px solid #ddd;
 }
-
 .ln-div img {
   margin-right: 15px;
   float: left;
 }
-
 .ln-div .ln-two h4 {
   font-size: 17px;
   height: -moz-fit-content;
   height: fit-content;
   font-family: "Roboto-Condensed", sans-serif;
 }
-
 .ln-div .ln-two div {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -253,7 +228,6 @@ header .two-navs {
 .culntra-divs .culntra-together {
   position: relative;
 }
-
 .culntra-divs .culntra-together div {
   position: absolute;
   z-index: 1;
@@ -262,7 +236,6 @@ header .two-navs {
   background-color: #c2d4d7;
   padding: 0 6px;
 }
-
 .culntra-divs p {
   color: rgba(3, 3, 3, 0.5);
   font-size: 16px;
@@ -297,7 +270,6 @@ header .two-navs {
   width: 100%;
   text-align: center;
 }
-
 .flex-column .bottom-left {
   position: absolute;
   bottom: 0;
@@ -333,7 +305,6 @@ header .two-navs {
   padding: 24px 20px 20px;
   background-color: #f4f5f6;
 }
-
 .fun-image .half-right {
   position: absolute;
   top: 35%;
@@ -346,7 +317,6 @@ header .two-navs {
   height: 250px;
   text-align: center;
 }
-
 .f1-info h3,
 .f1-infos h3 {
   position: relative;
@@ -355,7 +325,6 @@ header .two-navs {
   margin-bottom: 15px;
   font-weight: bold;
 }
-
 .f1-info button,
 .f1-infos button {
   position: relative;
@@ -404,6 +373,18 @@ header .two-navs {
   font-size: 20px;
 }
 
+.sub-news {
+  position: relative;
+  left: 1.7em;
+  top: 1em;
+}
+
+.sub-image {
+  position: absolute;
+  left: 5em;
+  margin-top: 20px;
+}
+
 footer .section-1 .div-1 .svg-2 {
   display: block;
   width: 236px;
@@ -412,26 +393,21 @@ footer .section-1 .div-1 .svg-2 {
   margin-bottom: 12px;
   fill: #f72210;
 }
-
 footer .section-1 .div-1 .fot-p {
   margin-bottom: 12px !important;
 }
-
 footer .section-1 .fotsocials {
   gap: 10px;
   padding-left: 10px;
 }
-
 footer .section-1 .fotsocials i {
   font-size: 26px;
 }
-
 footer .footer-hr {
   width: 100%;
   text-align: left;
   margin-left: 0;
 }
-
 footer .foot-bottom {
   padding: 20px 0 0 0;
   list-style-type: none;
@@ -439,20 +415,17 @@ footer .foot-bottom {
   font-size: 14px;
   line-height: 15px;
 }
-
 footer .foot-bottom li {
   margin: 0 10px 0 0;
   width: -moz-fit-content;
   width: fit-content;
 }
-
 footer .section-2 .sec-2-body .fotedition {
   list-style-type: none;
   gap: 10px;
   font-size: 14px;
   line-height: 15px;
 }
-
 footer .section-2 .sec-2-body .fotedition li {
   margin: 0 10px 0 10px;
 }
@@ -466,123 +439,100 @@ footer .section-2 .sec-2-body .fotedition li {
     font-size: 18px;
     font-style: bold;
   }
-
   .person {
     display: none;
   }
-
   .tolu-row {
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
-
   .tolu-row .featured-story {
     padding-left: 15px;
     padding-right: 15px;
   }
-
   .sign-btns {
     justify-content: center;
   }
-
   .fun-image {
     display: flex;
     justify-content: space-between;
   }
-
   .fun-image .half-right {
     position: absolute;
     top: 50%;
     left: 20%;
   }
-
   .f1-info {
     text-align: start;
     padding-top: 15px;
     padding-left: 70px;
   }
-
   .f1-info button {
     justify-content: center;
     padding-right: 20px;
   }
-
   .f1-infos {
     padding-left: 30px;
     text-align: center;
     padding-top: 15px;
   }
-
   footer .section-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-
   footer .section-1 .div-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-
   footer .section-1 .div-1 .svg-2 {
     margin-bottom: 0;
   }
-
   footer .section-1 .div-1 .fot-p {
     align-self: end;
     margin-bottom: 0 !important;
   }
-
   footer .section-1 .fotsocials {
     align-self: end;
     margin-left: auto;
   }
-
   footer .fotedition li {
     border-right: solid 1px #d9d9d9;
     padding-right: 10px;
     margin-left: 0 !important;
   }
-
   footer .foot-bottom li {
     border-right: solid 1px #d9d9d9;
     padding-right: 10px;
     margin-left: 0 !important;
   }
 }
-
 @media (min-width: 1023px) {
   header .red-header small {
     display: block !important;
     align-self: end;
     margin: 0 0 20px 20px;
   }
-
   header .red-header .svg {
     width: 396px;
     height: 60px;
   }
-
   header .red-header .btn-yellow {
     margin-right: 20px !important;
   }
-
   header .bars {
     display: none;
   }
-
   header .two-navs {
     display: block;
     color: black;
   }
-
   header .two-navs .white-div {
     position: relative;
     bottom: 10px;
     background-color: white;
   }
-
   header .two-navs .white-div .white-div-1 {
     list-style-type: none;
     gap: 10px;
@@ -590,7 +540,6 @@ footer .section-2 .sec-2-body .fotedition li {
     border-bottom: solid 1px #d9d9d9;
     margin-bottom: 0;
   }
-
   header .two-navs .white-div .white-div-1 li {
     padding-left: 10px;
     width: -moz-fit-content;
@@ -600,7 +549,6 @@ footer .section-2 .sec-2-body .fotedition li {
     border-left-style: solid;
     border-left-color: #d9d9d9;
   }
-
   header .two-navs .white-div .white-div-2 {
     list-style-type: none;
     gap: 10px;
@@ -608,11 +556,8 @@ footer .section-2 .sec-2-body .fotedition li {
     align-items: center;
     padding: 10px 0 10px 30px;
   }
-
   header .two-navs .white-div .white-div-2 li {
     width: -moz-fit-content;
     width: fit-content;
   }
-}
-
-/*# sourceMappingURL=page.css.map */
+}/*# sourceMappingURL=page.css.map */
