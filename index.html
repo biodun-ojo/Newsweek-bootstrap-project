@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsweek project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header class="">
         <div class="d-flex flex-row justify-content-between align-items-center red-header">
@@ -15,10 +18,12 @@
             <p class="d-none big-header">Newsweek</p>
             <img src="assests/images/image.svg" class="svg">
             <div class="d-flex  second-side">
-                <button class="bg-transparent border-0 person" type="button"><img src="assests/icons/material-symbols--person.svg"></button>
+                <button class="bg-transparent border-0 person" type="button"><img
+                        src="assests/icons/material-symbols--person.svg" class="img-fluid  person-img"></button>
                 <button type="button" class="d-none bg-transparent logs">LOGIN</button>
-                <button type="button" class="m-auto btn-yellow">subscribe</button>
-                <button type="button" class="bg-transparent border-0 bars"><img src="assests/icons/heroicons--bars-3-16-solid.svg"></button>
+                <button type="button" class="m-auto fw-bolder btn-yellow">subscribe></button>
+                <button type="button" class="bg-transparent border-0 bars"><img
+                        src="assests/icons/heroicons--bars-3-16-solid.svg" class="img-fluid bars-img"></button>
             </div>
         </div>
         <div class="two-navs">
@@ -50,51 +55,1582 @@
             </div>
         </div>
     </header>
-    <div class="fs-1">
-        MAIN BODY
+    <!--- tolu's side -->
+    <div class="d-md-none tolu-div">
+        <div class="p-3 top-story">
+            <div class="py-2">TOP STORY</div>
+            <article class="top-st-1">
+                <div class="sub-together">
+                    <div class="sub">
+                        Politics
+                    </div>
+                    <img src="images/biden-speaks-delaware.webp" class="w-100">
+                </div>
+                <h2 class=" my-2 fw-bolder">Joe Biden's First Executive Actions Undo Many of Donald Trump's</h2>
+                <div>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the
+                    first taken as he begins his tenure.</div>
+            </article>
+        </div>
+
+        <hr class="w-100 middle-1">
+
+        <!--for moblie view-->
+        <div class="p-3 d-md-none featured-story">
+            <div class="mb-2">
+                FEATURED STORY
+            </div>
+            <article class="mb-4 featured-story-divs">
+                <div class="featured-story-sub-divs">
+                    <div class="miniz">
+                        U.S
+                    </div>
+                    <img src="images/donald-trump.webp" class="w-100">
+                </div>
+                <h2 class="my-2 fw-bolder">The 73 People Pardoned by Donald Trump on His Last Day As President</h2>
+                <div>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and
+                    rapper Lil Wayne.</div>
+            </article>
+
+            <article class="mb-4 featured-story-divs">
+                <div class="featured-story-sub-divs">
+                    <div class="miniz">Politics</div>
+                    <img src="images/trump-waves-south-lawn.webp" class="w-100">
+                </div>
+                <h2 class="my-2 fw-bolder">Donald Trump Can Issue Secret Pardons, but They're Risky</h2>
+                <div>Trump chose not to issue pardons for himself of his personal attorney, former New York Mayor Rudy
+                    Giuliani.</div>
+            </article>
+
+            <article class="mb-4 featured-story-divs">
+                <div class="featured-story-sub-divs">
+                    <div class="miniz">Experts</div>
+                    <img src="images/newsweek-expert-forum.webp" class="w-100">
+                </div>
+                <h2 class="my-2 fw-bolder">Newsweek Announces Launch of the Newsweek Expert Forum</h2>
+                <div>Newsweek Expert Forum creates cohort of thought leaders, pioneering thinkers to share insights,
+                    expertise from range of professions, industries.</div>
+            </article>
+
+            <article class="mb-4 featured-story-divs">
+                <div class="featured-story-sub-divs">
+                    <div class="miniz">Politics</div>
+                    <img src="images/trump-steps-off-air-force-one.webp" class="w-100">
+                </div>
+                <h2 class="my-2 fw-bolder">Can Joe Biden Rescind Donald Trump's Pardons?</h2>
+                <div>The president did not issue pardons for himself, his children or for former New York Mayor Rudy
+                    Giuliani.</div>
+            </article>
+
+            <article class="mb-4 featured-story-divs">
+                <div class="featured-story-sub-divs">
+                    <div class="miniz">Politics</div>
+                    <img src="images/biden-delivers-remarks-during-memorial-service.jpg" class="w-100">
+                </div>
+                <h2 class="my-2 fw-bolder">Joe Biden Immigration Orders Upend Donald Trump's Legacy</h2>
+                <div>The Biden Administration will issue an order stopping construction of the border wall on its first
+                    day.</div>
+            </article>
+        </div>
+
+        <hr class="w-100 middle-2">
+
+        <div class="p-3 debate-main-div">
+            <div class="mb-2">THE DEBATE</div>
+            <article class="py-3 debate-whole">
+                <div class="d-flex debate-sub-div-1">
+                    <img src="images/froma-harrop.png" class="debate-img-1">
+                    <p>Media Have Every Right to Cancel Trump<br>BY FROMA HARROP</p>
+                </div>
+                <div class="position-relative two-mini">
+                    <hr class="w-100">
+                    <div>V.S</div>
+                </div>
+                <div class="d-flex debate-sub-div-2">
+                    <P>After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens<br>BY RACHEL BOVARD</P>
+                    <img src="images/rachel-bovard.png" class="debate-img-2">
+                </div>
+            </article>
+        </div>
+
+        <hr class="w-100 middle-3">
+
+        <div class="p-3 opinion-div">
+            <small>OPINION</small>
+
+            <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                <img src="images/frank-cilluffo-stewart-baker.webp" class="opinion-img">
+                <div class="two-p">
+                    <p class="fw-bolder two-p-1">U.S. Supply Chain: Stop Driving Blind</p>
+                    <p>BY FRANK CILLUFFO AND STEWART BAKER</p>
+                </div>
+            </div>
+
+            <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                <img src="images/rick-scott.webp" class="opinion-img">
+                <div class="two-p">
+                    <p class="fw-bolder two-p-1">After Violence at the Capitol, Congress Must Ensure Election Integrity
+                    </p>
+                    <p>BY RICK SCOTT</p>
+                </div>
+            </div>
+
+            <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                <img src="images/nigel-farage.webp" class="opinion-img">
+                <div class="two-p">
+                    <p class="fw-bolder two-p-1">Despite January 6, Trump Leaves a Legacy of Trust with Voters</p>
+                    <p>BY NIGEL FARAGE</p>
+                </div>
+            </div>
+
+            <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                <img src="images/philip-jeffery.webp" class="opinion-img">
+                <div class="two-p">
+                    <p class="fw-bolder two-p-1">Narcissism and Nihilism on Capitol Hill</p>
+                    <p>BY PHILIP JEFFERY</p>
+                </div>
+            </div>
+
+            <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                <img src="images/bruce-abramson.webp" class="opinion-img">
+                <div class="two-p">
+                    <p class="fw-bolder two-p-1">Exit Trump, Tragic American Hero</p>
+                    <P>BY BRUCE ABRAMSON</P>
+                </div>
+            </div>
+
+            <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                <img src="images/mark-davis.webp" class="opinion-img">
+                <div class="two-p">
+                    <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th<< /p>
+                            <p>BY MARK DAVIS</p>
+                </div>
+            </div>
+
+            <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                <img src="images/abraham-cooper-manfred-gerstenfeld.webp" class="opinion-img">
+                <div class="two-p">
+                    <p class="fw-bolder two-p-1">Is the European Union Combating or Whitewashing Anti-Semitism?</p>
+                    <p>BY ABRAHAM COOPER AND MANFRED GERSTENFELD</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="w-100 middle-4">
+
+        <!--for mobile view-->
+        <div class="p-3 d-md-none more-stories-div">
+            <div class="ms-heading">MORE STORIES</div>
+            <article class="ms-div">
+                <img src="images/migrant-child-us-mexico-border-stranded-trump.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</h4>
+                    <div>The incoming president has not said what he plans to do with the tens of thousands of
+                        asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/immigration-reform-ice-joe-biden-trump.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Evangelicals, Police, Who Disliked Trump Immigration Policy May Back Reform
+                    </h4>
+                    <div>Religious conservatives and law-enforcement officers who were uncomfortable with family
+                        separations may be open to immigration reform.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/donald-trump-speaking-video-white-house-pardons.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Donald Trump Pardons Israeli Spy Handler Who Paid for American Secrets</h4>
+                    <div>The president's flurry of pardons include former Israeli air force colonel Aviem Sella, who
+                        recruited the infamous spy Jonathan Pollard.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/joe-biden-kamala-harris-their-spouses.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Joe Biden's Schedule for His First Day As President</h4>
+                    <div>Joe Biden will be sworn in as the 46th president of the United States at noon on Wednesday.
+                        Kamala Harris will become the 49th vice president.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/russian-embassy-washington-dc.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">U.S. Cut Russia Consulate Phones Before Trump's Last Day, Moscow Claims</h4>
+                    <div>The Russian embassy in Washington, DC has sent a diplomatic note to the State Department after
+                        the phones at its New York consulate stopped working.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/abortion.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Mississippi Bill Classifying Abortions as Murder Introduced by GOP Lawmaker
+                    </h4>
+                    <div>Rep. Dan Eubanks also introduced a bill to ban employers from mandating COVID-19 vaccines for
+                        their staff.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/rep-john-katko.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">GOP Rep. John Katko Says Capitol Riots 'Worse Than People Realized'</h4>
+                    <div>New York Rep. John Katko said classified briefings he had received about the January 6 unrest
+                        were "deeply troubling."</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/jon-ossoff-raphael-warnock-wins-certified.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Jon Ossoff, Raphael Warnock Certified by Georgia as Senate Runoff Winners</h4>
+                    <div>The two victories give Democrats majority control of the Senate, since Kamala Harris can break
+                        a tie vote.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/congresswoman-elect-lauren-boebert.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Lauren Boebert Rejects Claims She Gave Rioters Capitol Tour</h4>
+                    <div>The Colorado congresswoman said that the claims made on CNN by Rep. Steve Cohen had endangered
+                        her family and her staff.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/trump-greets-supporters-texas.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Trump Allies Await Pardons News as Clock Ticks Down on Presidential Powers
+                    </h4>
+                    <div>There is speculation about the president making final use of his clemency powers as his time in
+                        the White House draws to a close.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/national-guard-us-capitol.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">National Guard Activated in 30 States Over Fears of Inauguration Violence</h4>
+                    <div>From California to Michigan, dozens of states will be bolstering security, including some
+                        declaring states of emergency and summoning the National Guard.</div>
+                </div>
+            </article>
+
+            <article class="ms-div">
+                <img src="images/pastor-brian-gibson-viking.webp">
+                <div class="ms-two">
+                    <h4 class="fw-bolder">Christians in Crosshairs After Capitol Riot</h4>
+                    <div>Christians like Pastor Brian Gibson, now in hiding, are in the crosshairs after riots at the
+                        Capitol featured imagery of crosses and mentions of Jesus and God.</div>
+                </div>
+            </article>
+        </div>
+
+        <!--for moblie view -->
+        <div class="p-3 d-md-none latest-news-div">
+            <div class="ln-heading">LATEST NEWS</div>
+            <article class="ln-div">
+                <img src="images/cobra-kai-karate-kid-sequel.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">'Cobra Kai' Season 4 Expected to Start Shooting Today</h4>
+                    <div>"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...
+                    </div>
+                </div>
+            </article>
+
+            <article class="ln-div">
+                <img src="images/qanon-slogan-rally.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">Fake Gen. Hyten Telegram Channel Spreads Qanon Slogans Before Inauguration
+                    </h4>
+                    <div>Gen. Hyten, who is the vice chairman of the Joint Chiefs of Staff and the country's second...
+                    </div>
+                </div>
+            </article>
+
+            <article class="ln-div">
+                <img src="images/mypillow-mike-lindell-donald-trump.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">MyPillow Products Dropped Because of Poor Sales Not Politics, Stores Say</h4>
+                    <div>MyPillow CEO Mike Lindell claimed several retailers were succumbing to pressure from
+                        campaigners...</div>
+                </div>
+            </article>
+
+            <article class="ln-div">
+                <img src="images/us-president-donald-trump.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">Trump's Pardon List Leaves Off Snowden, Assange and Winner</h4>
+                    <div>Trump granted clemency to dozens of people in the final hours of his presidency.</div>
+                </div>
+            </article>
+
+            <article class="ln-div">
+                <img src="images/ncis-gibbs-shot-mcgee.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">'NCIS' Season 18 Reveals Why Gibbs Shot McGee</h4>
+                    <div>"NCIS" Season 18, Episode 5 on CBS finally came back to the opening of the season, which saw
+                        Gibbs...</div>
+                </div>
+            </article>
+
+            <article class="ln-div">
+                <img src="images/kodak-black.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">Kodak Black Pardoned by Trump Two Months After $1 Million Charity Pledge</h4>
+                    <div>The rapper is serving a four-year sentence in federal prison after pleading guilty to
+                        possession of...</div>
+                </div>
+            </article>
+
+            <article class="ln-div">
+                <img src="images/matt-gaetz-house-judiciary-subcommittee.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">Trump Ally Gaetz Wants More GOP Leaders With Outgoing President's 'Spirit'
+                    </h4>
+                    <div>The Republican congressman spoke of looking to "continue to harness the energy of the Trump...
+                    </div>
+                </div>
+            </article>
+
+            <article class="ln-div">
+                <img src="images/javits-center-nyc-covid-vaccination-site-2021.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">These Places Are Running Out of COVID Vaccines in the U.S.</h4>
+                    <div>New York City, the country's most populous city, was reported to have enough vaccines to
+                        administer...</div>
+                </div>
+            </article>
+
+            <article class="ln-div">
+                <img src="images/meghan-markle-attends-remembrance-westminster-abbey.webp">
+                <div class="ln-two">
+                    <h4 class="fw-bolder">Meghan Markle Details Leaked to U.K. Tabloid by 'High-Grade' Royal Source</h4>
+                    <div>The Duchess of Sussex's aide opened doors for the authors of a biography that accused Prince...
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="p-3 d-md-none turn-culture">
+            <div class="mb-3 fw-bolder turn-heading">MY TURN</div>
+            <section class="turn-div">
+                <div class="turn-mini-div">
+                    <img src="images/marriage-same-sex-marriage-best-friends.jpg" class="w-100">
+                    <p class="py-3 fw-bolder">'I Married My Best Friend to Avoid Inheritance Tax'</p>
+                </div>
+
+                <div class="turn-mini-div">
+                    <img src="images/dogs-special-needs-rescue-rescue-dogs.jpg" class="w-100">
+                    <p class="py-3 fw-bolder">'I've Rescued Hundreds of Special Needs Dogs'</p>
+                </div>
+
+                <div class="turn-mini-div">
+                    <img src="images/nick-ut-presidential-medal-freedom-photographer.jpg" class="w-100">
+                    <p class="py-3 fw-bolder">Why I Accepted Trump's Medal Of Arts</p>
+                </div>
+            </section>
+            <div class="mb-3 fw-bolder culntra-heading">CULTURE & TRAVEL</div>
+            <div>
+                <div class="culntra-divs">
+                    <div class="culntra-together">
+                        <div>TRAVEL</div>
+                        <img src="images/cul-map-happiness-finland.webp" class="w-100">
+                    </div>
+                    <p class="py-3 fw-bolder">The Secrets to Happiness Around the World</p>
+                </div>
+
+                <div class="culntra-divs">
+                    <div class="culntra-together">
+                        <div>TRAVEL</div>
+                        <img src="images/uncharted-eco-camp-patagonia.webp" class="w-100">
+                    </div>
+                    <p class="py-3 fw-bolder">Where We Are Dreaming of Traveling in 2021</p>
+                </div>
+
+                <div class="culntra-divs">
+                    <div class="culntra-together">
+                        <div>MUSIC</div>
+                        <img src="images/top-100-songs-2020.webp" class="w-100">
+                    </div>
+                    <p class="py-3 fw-bolder">These Are the Top 100 Songs of 2020</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer class="p-2">
-        <section class="section-1">
-            <div class="div-1">
-                <p class="diplay-2 m-0 big-header text-danger fw-bold d-none fot-hed">Newsweek</p>
-                <img src="assests/images/image-2.svg" class="svg-2">
-                <p class="m-0 fot-p">&copy; 2021 NEWSWEEK DIGITAL LLC</p>
+
+    <!--tolu tablet view-->
+    <div class="d-none d-md-block tolu-div">
+        <section class="row tolu-row">
+            <div class="col-md-7 order-md-2 col-lg-4 order-lg-2 top-story">
+                <div class="py-2 pt-4">TOP STORY</div>
+                <article class="top-st-1">
+                    <div class="sub-together">
+                        <div class="sub">
+                            Politics
+                        </div>
+                        <img src="images/biden-speaks-delaware.webp" class="w-100">
+                    </div>
+                    <h2 class=" my-2 fw-bolder">Joe Biden's First Executive Actions Undo Many of Donald Trump's</h2>
+                    <div>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the
+                        first taken as he begins his tenure.</div>
+                </article>
+
+                <article class="d-none d-md-block">
+                    <div class="pt-5 turn-culture">
+                        <div class="mb-3 fw-bolder turn-heading">MY TURN</div>
+                        <section class="d-flex turn-div">
+                            <div class="px-2 turn-mini-div">
+                                <img src="images/marriage-same-sex-marriage-best-friends.jpg" class="w-100">
+                                <p class="py-3 fw-bolder">'I Married My Best Friend to Avoid Inheritance Tax'</p>
+                            </div>
+
+                            <div class="px-2 turn-mini-div">
+                                <img src="images/dogs-special-needs-rescue-rescue-dogs.jpg" class="w-100">
+                                <p class="py-3 fw-bolder">'I've Rescued Hundreds of Special Needs Dogs'</p>
+                            </div>
+
+                            <div class="px-2 turn-mini-div">
+                                <img src="images/nick-ut-presidential-medal-freedom-photographer.jpg" class="w-100">
+                                <p class="py-3 fw-bolder">Why I Accepted Trump's Medal Of Arts</p>
+                            </div>
+                        </section>
+
+                        <div class="mb-3 fw-bolder culntra-heading">CULTURE & TRAVEL</div>
+                        <section class="d-flex">
+                            <div class="px-2 culntra-divs">
+                                <div class="culntra-together">
+                                    <div>TRAVEL</div>
+                                    <img src="images/cul-map-happiness-finland.webp" class="w-100">
+                                </div>
+                                <p class="py-3 fw-bolder">The Secrets to Happiness Around the World</p>
+                            </div>
+
+                            <div class="px-2 culntra-divs">
+                                <div class="culntra-together">
+                                    <div>TRAVEL</div>
+                                    <img src="images/uncharted-eco-camp-patagonia.webp" class="w-100">
+                                </div>
+                                <p class="py-3 fw-bolder">Where We Are Dreaming of Traveling in 2021</p>
+                            </div>
+
+                            <div class="px-2 culntra-divs">
+                                <div class="culntra-together">
+                                    <div>MUSIC</div>
+                                    <img src="images/top-100-songs-2020.webp" class="w-100">
+                                </div>
+                                <p class="py-3 fw-bolder">These Are the Top 100 Songs of 2020</p>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="pt-3 more-stories-div">
+                        <div class="ms-heading">MORE STORIES</div>
+                        <article class="ms-div">
+                            <img src="images/migrant-child-us-mexico-border-stranded-trump.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico
+                                    Border</h4>
+                                <div>The incoming president has not said what he plans to do with the tens of thousands
+                                    of asylum-seekers living in limbo in crowded shelters and makeshift camps along the
+                                    border.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/immigration-reform-ice-joe-biden-trump.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Evangelicals, Police, Who Disliked Trump Immigration Policy May
+                                    Back Reform</h4>
+                                <div>Religious conservatives and law-enforcement officers who were uncomfortable with
+                                    family separations may be open to immigration reform.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/donald-trump-speaking-video-white-house-pardons.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Donald Trump Pardons Israeli Spy Handler Who Paid for American
+                                    Secrets</h4>
+                                <div>The president's flurry of pardons include former Israeli air force colonel Aviem
+                                    Sella, who recruited the infamous spy Jonathan Pollard.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/joe-biden-kamala-harris-their-spouses.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Joe Biden's Schedule for His First Day As President</h4>
+                                <div>Joe Biden will be sworn in as the 46th president of the United States at noon on
+                                    Wednesday. Kamala Harris will become the 49th vice president.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/russian-embassy-washington-dc.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">U.S. Cut Russia Consulate Phones Before Trump's Last Day, Moscow
+                                    Claims</h4>
+                                <div>The Russian embassy in Washington, DC has sent a diplomatic note to the State
+                                    Department after the phones at its New York consulate stopped working.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/abortion.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Mississippi Bill Classifying Abortions as Murder Introduced by GOP
+                                    Lawmaker</h4>
+                                <div>Rep. Dan Eubanks also introduced a bill to ban employers from mandating COVID-19
+                                    vaccines for their staff.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/rep-john-katko.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">GOP Rep. John Katko Says Capitol Riots 'Worse Than People
+                                    Realized'</h4>
+                                <div>New York Rep. John Katko said classified briefings he had received about the
+                                    January 6 unrest were "deeply troubling."</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/jon-ossoff-raphael-warnock-wins-certified.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Jon Ossoff, Raphael Warnock Certified by Georgia as Senate Runoff
+                                    Winners</h4>
+                                <div>The two victories give Democrats majority control of the Senate, since Kamala
+                                    Harris can break a tie vote.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/congresswoman-elect-lauren-boebert.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Lauren Boebert Rejects Claims She Gave Rioters Capitol Tour</h4>
+                                <div>The Colorado congresswoman said that the claims made on CNN by Rep. Steve Cohen had
+                                    endangered her family and her staff.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/trump-greets-supporters-texas.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Trump Allies Await Pardons News as Clock Ticks Down on
+                                    Presidential Powers</h4>
+                                <div>There is speculation about the president making final use of his clemency powers as
+                                    his time in the White House draws to a close.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/national-guard-us-capitol.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">National Guard Activated in 30 States Over Fears of Inauguration
+                                    Violence</h4>
+                                <div>From California to Michigan, dozens of states will be bolstering security,
+                                    including some declaring states of emergency and summoning the National Guard.</div>
+                            </div>
+                        </article>
+
+                        <article class="ms-div">
+                            <img src="images/pastor-brian-gibson-viking.webp">
+                            <div class="ms-two">
+                                <h4 class="fw-bolder">Christians in Crosshairs After Capitol Riot</h4>
+                                <div>Christians like Pastor Brian Gibson, now in hiding, are in the crosshairs after
+                                    riots at the Capitol featured imagery of crosses and mentions of Jesus and God.
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="pt-5 latest-news-div">
+                        <div class="ln-heading">LATEST NEWS</div>
+                        <article class="ln-div">
+                            <img src="images/cobra-kai-karate-kid-sequel.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">'Cobra Kai' Season 4 Expected to Start Shooting Today</h4>
+                                <div>"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been
+                                    reported to be...</div>
+                            </div>
+                        </article>
+
+                        <article class="ln-div">
+                            <img src="images/qanon-slogan-rally.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">Fake Gen. Hyten Telegram Channel Spreads Qanon Slogans Before
+                                    Inauguration</h4>
+                                <div>Gen. Hyten, who is the vice chairman of the Joint Chiefs of Staff and the country's
+                                    second...</div>
+                            </div>
+                        </article>
+
+                        <article class="ln-div">
+                            <img src="images/mypillow-mike-lindell-donald-trump.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">MyPillow Products Dropped Because of Poor Sales Not Politics,
+                                    Stores Say</h4>
+                                <div>MyPillow CEO Mike Lindell claimed several retailers were succumbing to pressure
+                                    from campaigners...</div>
+                            </div>
+                        </article>
+
+                        <article class="ln-div">
+                            <img src="images/us-president-donald-trump.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">Trump's Pardon List Leaves Off Snowden, Assange and Winner</h4>
+                                <div>Trump granted clemency to dozens of people in the final hours of his presidency.
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="ln-div">
+                            <img src="images/ncis-gibbs-shot-mcgee.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">'NCIS' Season 18 Reveals Why Gibbs Shot McGee</h4>
+                                <div>"NCIS" Season 18, Episode 5 on CBS finally came back to the opening of the season,
+                                    which saw Gibbs...</div>
+                            </div>
+                        </article>
+
+                        <article class="ln-div">
+                            <img src="images/kodak-black.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">Kodak Black Pardoned by Trump Two Months After $1 Million Charity
+                                    Pledge</h4>
+                                <div>The rapper is serving a four-year sentence in federal prison after pleading guilty
+                                    to possession of...</div>
+                            </div>
+                        </article>
+
+                        <article class="ln-div">
+                            <img src="images/matt-gaetz-house-judiciary-subcommittee.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">Trump Ally Gaetz Wants More GOP Leaders With Outgoing President's
+                                    'Spirit'</h4>
+                                <div>The Republican congressman spoke of looking to "continue to harness the energy of
+                                    the Trump...</div>
+                            </div>
+                        </article>
+
+                        <article class="ln-div">
+                            <img src="images/javits-center-nyc-covid-vaccination-site-2021.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">These Places Are Running Out of COVID Vaccines in the U.S.</h4>
+                                <div>New York City, the country's most populous city, was reported to have enough
+                                    vaccines to administer...</div>
+                            </div>
+                        </article>
+
+                        <article class="ln-div">
+                            <img src="images/meghan-markle-attends-remembrance-westminster-abbey.webp">
+                            <div class="ln-two">
+                                <h4 class="fw-bolder">Meghan Markle Details Leaked to U.K. Tabloid by 'High-Grade' Royal
+                                    Source</h4>
+                                <div>The Duchess of Sussex's aide opened doors for the authors of a biography that
+                                    accused Prince...</div>
+                            </div>
+                        </article>
+                    </div>
+                </article>
             </div>
-            <div class="d-flex fotsocials">
-                <div><i class="fa fa-facebook-official"></i></div>
-                <div><i class="fa fa-twitter"></i></div>
-                <div><i class="fa fa-instagram"></i></div>
-                <div><i class="fa fa-tumblr"></i></div>
-                <div><i class="fa fa-linkedin"></i></div>
+
+            <div class="col-md-5 order-md-1 col-lg-4 order-lg-1 featured-story">
+                <div class="mb-2 pt-4">
+                    FEATURED STORY
+                </div>
+                <article class="mb-4 featured-story-divs">
+                    <div class="featured-story-sub-divs">
+                        <div class="miniz">
+                            U.S
+                        </div>
+                        <img src="images/donald-trump.webp" class="w-100">
+                    </div>
+                    <h2 class="my-2 fw-bolder">The 73 People Pardoned by Donald Trump on His Last Day As President</h2>
+                    <div>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon
+                        and rapper Lil Wayne.</div>
+                </article>
+
+                <article class="mb-4 featured-story-divs">
+                    <div class="featured-story-sub-divs">
+                        <div class="miniz">Politics</div>
+                        <img src="images/trump-waves-south-lawn.webp" class="w-100">
+                    </div>
+                    <h2 class="my-2 fw-bolder">Donald Trump Can Issue Secret Pardons, but They're Risky</h2>
+                    <div>Trump chose not to issue pardons for himself of his personal attorney, former New York Mayor
+                        Rudy Giuliani.</div>
+                </article>
+
+                <article class="mb-4 featured-story-divs">
+                    <div class="featured-story-sub-divs">
+                        <div class="miniz">Experts</div>
+                        <img src="images/newsweek-expert-forum.webp" class="w-100">
+                    </div>
+                    <h2 class="my-2 fw-bolder">Newsweek Announces Launch of the Newsweek Expert Forum</h2>
+                    <div>Newsweek Expert Forum creates cohort of thought leaders, pioneering thinkers to share insights,
+                        expertise from range of professions, industries.</div>
+                </article>
+
+                <article class="mb-4 featured-story-divs">
+                    <div class="featured-story-sub-divs">
+                        <div class="miniz">Politics</div>
+                        <img src="images/trump-steps-off-air-force-one.webp" class="w-100">
+                    </div>
+                    <h2 class="my-2 fw-bolder">Can Joe Biden Rescind Donald Trump's Pardons?</h2>
+                    <div>The president did not issue pardons for himself, his children or for former New York Mayor Rudy
+                        Giuliani.</div>
+                </article>
+
+                <article class="mb-4 featured-story-divs">
+                    <div class="featured-story-sub-divs">
+                        <div class="miniz">Politics</div>
+                        <img src="images/biden-delivers-remarks-during-memorial-service.jpg" class="w-100">
+                    </div>
+                    <h2 class="my-2 fw-bolder">Joe Biden Immigration Orders Upend Donald Trump's Legacy</h2>
+                    <div>The Biden Administration will issue an order stopping construction of the border wall on its
+                        first day.</div>
+                </article>
+            </div>
+
+            <div class="d-none d-lg-block col-lg-4 order-lg-3">
+                <div class="p-3 debate-main-div">
+                    <div class="mb-2">THE DEBATE</div>
+                    <article class="py-3 debate-whole">
+                        <div class="d-flex debate-sub-div-1">
+                            <img src="images/froma-harrop.png" class="debate-img-1">
+                            <p>Media Have Every Right to Cancel Trump<br>BY FROMA HARROP</p>
+                        </div>
+                        <div class="position-relative two-mini">
+                            <hr class="w-100">
+                            <div>V.S</div>
+                        </div>
+                        <div class="d-flex debate-sub-div-2">
+                            <P>After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens<br>BY RACHEL BOVARD
+                            </P>
+                            <img src="images/rachel-bovard.png" class="debate-img-2">
+                        </div>
+                    </article>
+                </div>
+
+                <div class="p-3 opinion-div">
+                    <small>OPINION</small>
+
+                    <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                        <img src="images/frank-cilluffo-stewart-baker.webp" class="align-self-start opinion-img">
+                        <div class="h-auto two-p">
+                            <p class="fw-bolder two-p-1">U.S. Supply Chain: Stop Driving Blind</p>
+                            <p>BY FRANK CILLUFFO AND STEWART BAKER</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                        <img src="images/rick-scott.webp" class="align-self-start opinion-img">
+                        <div class="h-auto two-p">
+                            <p class="fw-bolder two-p-1">After Violence at the Capitol, Congress Must Ensure Election
+                                Integrity</p>
+                            <p>BY RICK SCOTT</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                        <img src="images/nigel-farage.webp" class="align-self-start opinion-img">
+                        <div class="h-auto two-p">
+                            <p class="fw-bolder two-p-1">Despite January 6, Trump Leaves a Legacy of Trust with Voters
+                            </p>
+                            <p>BY NIGEL FARAGE</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                        <img src="images/philip-jeffery.webp" class="align-self-start opinion-img">
+                        <div class="h-auto two-p">
+                            <p class="fw-bolder two-p-1">Narcissism and Nihilism on Capitol Hill</p>
+                            <p>BY PHILIP JEFFERY</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                        <img src="images/bruce-abramson.webp" class="align-self-start opinion-img">
+                        <div class="h-auto two-p">
+                            <p class="fw-bolder two-p-1">Exit Trump, Tragic American Hero</p>
+                            <P>BY BRUCE ABRAMSON</P>
+                        </div>
+                    </div>
+
+                    <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                        <img src="images/mark-davis.webp" class="align-self-start opinion-img">
+                        <div class="h-auto two-p">
+                            <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th<<
+                                    /p>
+                                    <p>BY MARK DAVIS</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                        <img src="images/abraham-cooper-manfred-gerstenfeld.webp" class="align-self-start opinion-img">
+                        <div class="h-auto two-p">
+                            <p class="fw-bolder two-p-1">Is the European Union Combating or Whitewashing Anti-Semitism?
+                            </p>
+                            <p>BY ABRAHAM COOPER AND MANFRED GERSTENFELD</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <hr>
-        <section class="section-2">
-            <div class="d-flex align-items-start sec-2-body">
-                <div>Editions:</div>
-                <ul  class="d-flex flex-wrap m-0 align-items-start fotedition">
-                    <li>U.S. Edition</li>
-                    <li>Chinese</li>
-                    <li>Pakistan</li>
-                    <li>Polska</li>
-                    <li>Romania</li>
+
+        <div class="d-lg-none">
+            <div class="p-3 debate-main-div">
+                <div class="mb-2">THE DEBATE</div>
+                <article class="py-3 debate-whole">
+                    <div class="d-flex debate-sub-div-1">
+                        <img src="images/froma-harrop.png" class="debate-img-1">
+                        <p>Media Have Every Right to Cancel Trump<br>BY FROMA HARROP</p>
+                    </div>
+                    <div class="position-relative two-mini">
+                        <hr class="w-100">
+                        <div>V.S</div>
+                    </div>
+                    <div class="d-flex justify-content-between debate-sub-div-2">
+                        <P>After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens<br>BY RACHEL BOVARD</P>
+                        <img src="images/rachel-bovard.png" class="debate-img-2">
+                    </div>
+                </article>
+            </div>
+
+            <div class="p-3 opinion-div">
+                <small>OPINION</small>
+
+                <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                    <img src="images/frank-cilluffo-stewart-baker.webp" class="opinion-img">
+                    <div class="two-p">
+                        <p class="fw-bolder two-p-1">U.S. Supply Chain: Stop Driving Blind</p>
+                        <p>BY FRANK CILLUFFO AND STEWART BAKER</p>
+                    </div>
+                </div>
+
+                <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                    <img src="images/rick-scott.webp" class="opinion-img">
+                    <div class="two-p">
+                        <p class="fw-bolder two-p-1">After Violence at the Capitol, Congress Must Ensure Election
+                            Integrity</p>
+                        <p>BY RICK SCOTT</p>
+                    </div>
+                </div>
+
+                <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                    <img src="images/nigel-farage.webp" class="opinion-img">
+                    <div class="two-p">
+                        <p class="fw-bolder two-p-1">Despite January 6, Trump Leaves a Legacy of Trust with Voters</p>
+                        <p>BY NIGEL FARAGE</p>
+                    </div>
+                </div>
+
+                <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                    <img src="images/philip-jeffery.webp" class="opinion-img">
+                    <div class="two-p">
+                        <p class="fw-bolder two-p-1">Narcissism and Nihilism on Capitol Hill</p>
+                        <p>BY PHILIP JEFFERY</p>
+                    </div>
+                </div>
+
+                <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                    <img src="images/bruce-abramson.webp" class="opinion-img">
+                    <div class="two-p">
+                        <p class="fw-bolder two-p-1">Exit Trump, Tragic American Hero</p>
+                        <P>BY BRUCE ABRAMSON</P>
+                    </div>
+                </div>
+
+                <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                    <img src="images/mark-davis.webp" class="opinion-img">
+                    <div class="two-p">
+                        <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th<< /p>
+                                <p>BY MARK DAVIS</p>
+                    </div>
+                </div>
+
+                <div class="d-flex py-2 align-items-center opinion-sub-main-div">
+                    <img src="images/abraham-cooper-manfred-gerstenfeld.webp" class="opinion-img">
+                    <div class="two-p">
+                        <p class="fw-bolder two-p-1">Is the European Union Combating or Whitewashing Anti-Semitism?</p>
+                        <p>BY ABRAHAM COOPER AND MANFRED GERSTENFELD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- kareem's side  -->
+    <div class="container-fluid p-3 kareem-div">
+
+        <div>
+            <h3 class="n-title">IN THE MAGAZINE</h3>
+        </div>
+
+
+        <div class="my-2 align-items-center row">
+
+            <div class="col-sm-3">
+                <div><img src="images/cover-january-22-2021.jpg" class="img-fluid"></div>
+                <div class="category">
+                    <span>JANAURY 22 ISSUE</span>
+
+                </div>
+                <h5 class="fw-bolder AB-H">SEE ALL FEATURES</h5>
+
+            </div>
+            <div class="col-sm-3">
+                <div><img src="images/pro-trump-mob-seizes-capitol.jpg" class="w-100"></div>
+                <div class="d-flex my-2">
+                    <div class="text-light bg-danger fw-bold py-1 px-2">COVER</div>
+                    <div class="text-danger fw-bold p-1 ms-2">NEWS</div>
+                </div>
+                <h5 class="fw-bolder AB">FBI,DHS,white House Advisers foresaw possible Riots, Looked the other way</h5>
+
+            </div>
+            <div class="col-sm-3">
+                <div> <img src="images/trmpford.jpg" class="w-100"></div>
+                <div class="d-flex my-2">
+                    <div class="text-light bg-danger fw-bold py-1 px-2">FEATURES</div>
+                    <div class="text-danger fw-bold p-1 ms-2">OPINION</div>
+                </div>
+                <h5 class="fw-bolder AB">On His Way Out, Trump Trashes America- and the GOP</h5>
+
+            </div>
+            <div class="col-sm-3">
+                <div><img src="images/trump-protest-capitol-washington.jpg" class="w-100"></div>
+                <div class="d-flex my-2">
+                    <div class="text-light bg-danger fw-bold py-1 px-2">FEATURES</div>
+                    <div class="text-danger fw-bold p-1 ms-2">WORLD</div>
+                </div>
+                <h5 class="fw-bolder AB">Nations Targeted by US for Regime Change Mob Attack on Capitol</h5>
+
+            </div>
+        </div>
+
+        <div class="my-2 row">
+
+            <div class="col-sm-3">
+                <div><img src="images/fe-american-coup-01-1230457776.jpg" class="w-100"></div>
+                <div class="d-flex my-2">
+                    <div class="text-light bg-danger fw-bold py-1 px-2">FEATURES</div>
+                    <div class="text-danger fw-bold p-1 ms-2">CULTURE</div>
+                </div>
+                <h5 class="fw-bolder AB">War on Decomocracy: the Capitol Riot, in pictures</h5>
+
+            </div>
+            <div class="col-sm-3">
+                <div><img src="images/libya-commander-war-funeral.jpg" class="w-100"></div>
+                <div class="d-flex my-2">
+                    <div class="text-light bg-danger fw-bold py-1 px-2">PERISCOPE</div>
+                    <div class="text-danger fw-bold p-1 ms-2">CULTURE</div>
+                </div>
+                <h5 class="fw-bolder AB">10 Years After the Arab Spring, Uncertainty Dominates the Region</h5>
+
+            </div>
+            <div class="col-sm-3">
+                <div><img src="images/per-london-warrwick-01.jpg" class="w-100"></div>
+                <div class="d-flex my-2">
+                    <div class="text-light bg-danger fw-bold py-1 px-2">PERISCOPE</div>
+                    <div class="text-danger fw-bold p-1 ms-2">CULTURE</div>
+                </div>
+                <h5 class="fw-bolder AB">'I'm 11, I Started a Cake Baking Business During The Pandemic'</h5>
+
+            </div>
+            <div class="col-sm-3">
+                <div><img src="images/cul-rhye-01.jpg" class="w-100"></div>
+                <div class="d-flex my-2">
+                    <div class="text-light bg-danger fw-bold py-1 px-2">DOWNTIME</div>
+                    <div class="text-danger fw-bold p-1 ms-2">CULTURE</div>
+                </div>
+                <h5 class="fw-bolder AB">Rhye Puts Down Roots</h5>
+
+            </div>
+        </div>
+
+
+
+        <div>
+            <h3 class="n-title">EDITOR'S PICK</h3>
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-md-6 col-lg-3">
+                <div class="flex-column">
+                    <img src="images/israel-tanks-border-syria-golan.jpg" class="w-100">
+                    <div class="bottom-left">
+                        WORLD
+                    </div>
+                </div>
+                <h3 class="fw-bolder my-2 CD">Israel Security Officials Reveal Top Threats Faced on Four Fronts This
+                    Year</h3>
+                <div class="EG">Newsweek spoke exclusively with four Israeli security officials charged with frontiers
+                    facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary
+                    security concerns for 2021.</div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="flex-column">
+                    <img src="images/us-president-donald-trump.jpg" class="w-100">
+                    <div class="bottom-left">U.S</div>
+                </div>
+                <h3 class="fw-bolder my-2 CD">Donald Trump's Pardon List Doesn't Include Himself or His Children</h3>
+                <div class="EG">Trump released a list of pardons on Tuesday, as last-minute presidential pardons have
+                    been a long-standing custom for outgoing presidents.</div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="flex-column">
+                    <img src="images/queue-covid19-antibody-tests-california.jpg" class="w-100">
+                    <div class="bottom-left">U.S</div>
+                </div>
+                <h3 class="fw-bolder my-2 CD">More Stimulus Checks Largely Wanted for Bills, Debts and Essentials</h3>
+                <div class="EG">
+                    The coronavirus crisis continues to cause economic hardship across the nation, with continued calls
+                    for further direct payments to assist those struggling.
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="flex-column">
+                    <img src="images/california-gov-gavin-newsom.jpg" class="w-100">
+                    <div class="bottom-left">U.S</div>
+                </div>
+                <h3 class="fw-bolder my-2 CD">Gavin Newsom, Facing Recall, Accelerates Sluggish Vaccine Rollout</h3>
+                <div class="EG">
+                    Slightly more than 1.3 million people in California had received a COVID-19 vaccine by Saturday.
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-md-6 col-lg-3">
+                <div class="flex-column">
+                    <img src="images/president-elect-joe-biden-climate-getty.jpg" class="w-100">
+                    <div class="bottom-left">TECH & SCIENCE</div>
+                </div>
+                <h3 class="fw-bolder my-2 CD">Paris Climate Agreement Explained As Joe Biden Plans to Rejoin</h3>
+                <div class="EG">
+                    The incoming Biden administrate plans to the the U.S. up to the according on inauguration day.
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="flex-column">
+                    <img src="images/president-donald-trump.jpg" class="w-100">
+                    <div class="bottom-left">TECH & SCIENCE</div>
+                </div>
+                <h3 class="fw-bolder my-2 CD">Trump's Facebook Gets Almost 200,000 Likes Despite Being Blocked after
+                    Riot</h3>
+                <div class="EG">
+                    The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was
+                    effectively exiled from mainstream social media platforms this month after the violence.
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="flex-column">
+                    <img src="images/people-queue-covid-vaccine.jpg" class="w-100">
+                    <div class="bottom-left">U.S</div>
+                </div>
+                <h3 class="fw-bolder my-2 CD">Faith in Governors' COVID-19 Plans Drops to New Low During Vaccine Rollout
+                </h3>
+                <div class="EG">
+                    Polling has shown growing dissatisfaction in how action has been communicated, as cases continue to
+                    rise and the number of deaths linked to COVID-19 in the U.S. nears 400,000.
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="flex-column">
+                    <img src="images/joe-biden-covid-19-vaccines.jpg" class="w-100">
+                    <div class="bottom-left">U.S</div>
+                </div>
+                <h3 class="fw-bolder my-2 CD">What Joe Biden Has Promised To Do on His First Day as President</h3>
+                <div class="EG">
+                    The president-elect plans to reverse the so-called "Muslim ban" and the exit from the Paris Climate
+                    Accords.
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <article class="py-2 border-top">
+                <h5 class="fw-bold text-danger">U.S.</h5>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/vanderburgh-john-keown (1).jpg" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold
+                            Weather
+                        </h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0"
+                                src="images/antony-blinken-attends-senate-confirming-hearing (1).jpg" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Taipei Says Biden Backs Taiwan As Blinken Warns Invasion
+                            'Grievous Mistake'
+                        </h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex flex-row gap-2 pb-2">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/1-tiger-wild-animal-sanctuary-colorado.webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Israel Security Officials Reveal Top Threats Faced on Four Fronts This
+                                Year
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/kwame-kiplatrick-trial (1).webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Israel Security Officials Reveal Top Threats Faced on Four Fronts This
+                                Year
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/k-9-officer-arlo.webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Israel Security Officials Reveal Top Threats Faced on Four Fronts This
+                                Year
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="py-2 border-top">
+                <h5 class="fw-bold text-danger">World</h5>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/theresa-may-donald-trump-london-2019 (1).jpg"
+                                class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Biden Offers 'Democracy and Decency' After Trump, Says
+                            Former
+                            U.K. PM</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0"
+                                src="images/donald-trump-rename-airport-scotland-golf (1).jpg" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Scottish Petition Posted to Rename Airport Near Trump
+                            Golf Club
+                            After Biden'</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex flex-row gap-2 pb-2">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0"
+                                    src="images/new-zealand-covid-free-concert-waitangi-crowd.webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                New Zealand's 20,000-Person Concert Marks 2 Months Without COVID in Country
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/joe-biden-south-korea-border-visit.webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                South Korea Sees Biden in Office as 'Turning Point' for North Peace Talks
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" class="img-fluid  start-0"
+                                    src="images/antony-blinken-china-li-yuanchao.webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Antony Blinken, Biden's State Department Pick, Says Trump Got China 'Right'
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="py-2 border-top">
+                <h5 class="fw-bold text-danger">Business</h5>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/sheldonadelson (1).jpg" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">IThe Absolutely American Life of Sheldon Adelson</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/loews-hotels-josh-hawley-cancel (1).jpg"
+                                class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">'Horrified' Loews Hotels Cancel GOP Sen. Josh Hawley
+                            Fundraiser
+                        </h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex flex-row gap-2 pb-2">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0"
+                                    src="images/1-tiger-wild-animal-sanctuary-colorado (1).webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Hidden Way Corporations, Billionaire Execs, Fund GOP Voter-Fraud Claimants
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/us-capitol-riot (1).webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Disney, Other Trusted Brands Funded Misinformation that Fueled Capitol Riot
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0"
+                                    src="images/walmart-profits-jump-latest-quarter-during.webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Walmart, Donor of Millions to GOP, No Longer Funding Election Objectors
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="py-2 border-top">
+                <h5 class="fw-bold text-danger">Tech &amp; Science</h5>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/anthony-levandowski (1).jpg" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Trump Pardons Anthony Levandowski, Engineer Who Stole
+                            Google
+                            Trade Secrets</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/netflix-free-trial (1).jpg" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Why Netflix No Longer Offers a Free Trial</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex flex-row gap-2 pb-2">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/president-elect-joe-biden (1).webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Parler's Amy Peikoff Quotes MLK In First Post Since Site's Return
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/cicada-brood-10-stock-getty (1).webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Trillions of brood 10 cicadas to merge in U.S Since Site Return
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/parler-app-mobile-phone.webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Parler's Amy Peikoff Quotes MLK In First Post Since Site's Return
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="py-2 border-top">
+                <h5 class="fw-bold text-danger">Culture</h5>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/cul-ps-jared-padalecki-2 (1).jpg" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From
+                            the
+                            Original</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/riverdale-season-5-time-jump (1).jpg"
+                                class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">'Riverdale' Season 5 Netflix Release Date</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex flex-row gap-2 pb-2">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/lil-wayne.webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Here Are Donald Trump's Reasons for Pardoning Lil Wayne
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/riverdale-season-5-release-date.webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                When 'Riverdale' Season 5 Airs and How to Watch Online
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/ghislaine-maxwell-wie-symposium-new-york.webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Ghislaine Maxwell Hearing Disrupted by YouTube Stream
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </article>
+
+            <article class="py-2 border-top">
+                <h5 class="fw-bold text-danger">Sports</h5>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0"
+                                src="images/houston-astros-outfielder-george-springer (1).jpg" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Does Houston Have a Problem? Springer and Harden Gone,
+                            Watson May
+                            Follow</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/zion-williamson-new-orleans-pelicans (1).jpg"
+                                class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Karl Malone Calls out Zion Williamson: 'Your A**
+                            Shouldn't Get
+                            Tired'</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex flex-row gap-2 pb-2">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/sarah-thomas-nfl-official.webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Sarah Thomas to Become First Female to Officiate a Super Bowl Next Month
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0"
+                                    src="images/kansas-city-chiefs-super-bowl-celebration.webp" class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Kansas City Making Super Bowl Victory Plans With Two Games Still To Play
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 pb-2">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/sarah-thomas-nfl-official.webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Sarah Thomas to Become First Female to Officiate a Super Bowl Next Month
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="py-2 border-top">
+                <h5 class="fw-bold text-danger">Newsweek Expert Forum</h5>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0" src="images/newsweek-expert-forum (2).png" class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Newsweek Announces Launch of the Newsweek Expert Forum
+                        </h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex">
+                            <img class="img-fluid  start-0"
+                                src="images/newsweek-expert-forum-members-share-industry-insights (2).jpg"
+                                class="w-100">
+                        </div>
+                        <h4 class="redunder fs-5 pt-2 fw-bold">Top Workplace Trends to Anticipate in 2021</h4>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/meet-members-newsweek-expert-forum.webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Meet Six members from Newsweek Expert Forum
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/meet-members-newsweek-expert-forum.webp"
+                                    class="w-100">
+                            </div>
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
+                                Get to Know Six Members of Newsweek Expert
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-2 py-2 border-top">
+                            <div class="flex-columns">
+                                <img class="img-fluid  start-0" src="images/meet-members-newsweek-expert-forum.webp"
+                                    class="w-100">
+                            </div>
+                            <div  class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline ">
+                                Meet Six Leaders from Newsweek Expert Forum
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <section>
+            <div class="container-fluid">
+                <div class="row mx-lg-3 border-bottom">
+                    <div class="col-lg-8 mt-4 mb-5">
+                        <h5 class="fw-bold text-danger text-link fs-6 mx-2">
+                            SUBSCRIBE
+                        </h5>
+                        <div class="row bg-light mx-2 pb-5 px-md-2 py-md-5 pt-md-2">
+                            <div class="col-md-6">
+                                <span class="sub-news">
+                                    <img src="images/january-15-2021-cover (1).jpg" class="img-fluids" alt="Donald Trump looking upwards with the U.S. flag on the background">
+                                    <img src="images/cover-january-22-2021 (1).jpg" class="img-fluids sub-image" alt="Riot at the capitol building in U.S.">
+                                </span>	
+                            </div>
+                            <div class="col-md-6 text-center text-md-start">
+                                <h4 class="fw-bold write-up">
+                                    In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                                </h4>
+                                <h5 class="font-subscribe-newsletter">
+                                    All Access + Weekly Delivery.<br> Choose A Membership That's Perfect for You!
+                                </h5>
+                                <button class="fw-bold bg-danger text-light p-2 border-0 rounded mt-3">
+                                    SUBSCRIBE >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-md-4 mx-lg-0 mb-2 newsletter-main-container">
+                        <h5 class="fw-bold text-danger text-link fs-6 mt-5 mt-lg-4">
+                            NEWSLETTER
+                        </h5>
+                        <div class="d-md-flex h-75">
+                            <div class="">
+                                <img src="images/starting5-homepage-rp.png" class="img-fluid newsletter-image" alt=" white colored Iphone with a webpage Newsweek opened up">
+                            </div>
+                            <div class="text-center text-lg-start border newsletter-size">
+                                <h4 class="fw-bold font-starting mt-4 mb-3">
+                                    THE STARTING 5
+                                </h4>
+                                <P class="font-subscribe-newsletter">
+                                    See why nearly a quarter of a million <br> subscribers begin their day with the Starting 5.
+                                </P>
+                                <div class="mb-4 email-signup">
+                                    <input class="newsletter-email p-2 border-light-subtle border-1" type="email" placeholder="Email address">
+                                    <button class="free-sign-up border-0 fw-bold bg-danger text-light rounded-end-1">FREE SIGN UP ></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="p-2">
+            <section class="section-1">
+                <div class="div-1">
+                    <p class="diplay-2 m-0 big-header text-danger fw-bold d-none fot-hed">Newsweek</p>
+                    <img src="assests/images/image-2.svg" class="svg-2">
+                    <p class="m-0 fot-p">&copy; 2021 NEWSWEEK DIGITAL LLC</p>
+                </div>
+                <div class="d-flex fotsocials">
+                    <div><i class="fa fa-facebook-official"></i></div>
+                    <div><i class="fa fa-twitter"></i></div>
+                    <div><i class="fa fa-instagram"></i></div>
+                    <div><i class="fa fa-tumblr"></i></div>
+                    <div><i class="fa fa-linkedin"></i></div>
+                </div>
+            </section>
+            <hr class="footer-hr">
+            <section class="section-2">
+                <div class="d-flex align-items-start sec-2-body">
+                    <div>Editions:</div>
+                    <ul class="d-flex flex-wrap m-0 align-items-start fotedition">
+                        <li>U.S. Edition</li>
+                        <li>Chinese</li>
+                        <li>Pakistan</li>
+                        <li>Polska</li>
+                        <li>Romania</li>
+                    </ul>
+                </div>
+                <ul class="d-flex align-content-between flex-wrap foot-bottom">
+                    <li>About Us</li>
+                    <li>Corrections</li>
+                    <li>Contact Us</li>
+                    <li>Editorial Guidelines</li>
+                    <li>Advertise</li>
+                    <li>Copyright</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Terms of Sale</li>
+                    <li>Archive</li>
+                    <li>Announcements</li>
                 </ul>
-            </div>
-            <ul class="d-flex align-content-between flex-wrap foot-bottom">
-                <li>About Us</li>
-                <li>Corrections</li>
-                <li>Contact Us</li>
-                <li>Editorial Guidelines</li>
-                <li>Advertise</li>
-                <li>Copyright</li>
-                <li>Terms & Conditions</li>
-                <li>Privacy Policy</li>
-                <li>Cookie Policy</li>
-                <li>Terms of Sale</li>
-                <li>Archive</li>
-                <li>Announcements</li>
-            </ul>
-        </section>
-    </footer>
+            </section>
+        </footer>
 </body>
+
 </html>
