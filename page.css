@@ -471,6 +471,86 @@ footer .section-2 .sec-2-body .fotedition li {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .turn-culture img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .turn-culture img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .more-stories-div img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .more-stories-div img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .latest-news-div img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .latest-news-div img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .last-lines > div:nth-child(1) img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .last-lines > div:nth-child(1) img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .last-lines > div:nth-child(2) img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .last-lines > div:nth-child(2) img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .sub-news img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .sub-news img:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  .last-sub {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .last-sub:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .newsletter-main-container button {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .newsletter-main-container button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
   .sign-btns {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
