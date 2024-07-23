@@ -52,6 +52,11 @@ header {
       margin-right: 0 !important;
       border-radius: 50px;
       font-family: 'Roboto-Condensed', sans-serif;
+      transition: transform 0.5s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
     }
 
     .person {

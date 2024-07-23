@@ -39,6 +39,14 @@ header .red-header .btn-yellow {
   margin-right: 0 !important;
   border-radius: 50px;
   font-family: "Roboto-Condensed", sans-serif;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+header .red-header .btn-yellow:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 header .red-header .person .person-img {
   height: 30px;
