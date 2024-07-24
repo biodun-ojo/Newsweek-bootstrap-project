@@ -46,6 +46,55 @@ body {
   font-size: 13px;
 }
 
+footer {
+  .section-1 {
+    .div-1 {
+      .svg-2 {
+        display: block;
+        width: 236px;
+        height: 36px;
+        margin-right: 15px;
+        margin-bottom: 12px;
+        fill: #f72210;
+      }
+
+      .fot-p {
+        margin-bottom: 12px !important;
+      }
+    }
+
+    .fotsocials {
+      gap: 10px;
+      padding-left: 10px;
+
+      i {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .footer-hr {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .section-2 {
+    .sec-2-body {
+      .fotedition {
+        list-style-type: none;
+        gap: 10px;
+        font-size: 14px;
+        line-height: 15px;
+
+        li {
+          margin: 0 10px 0 10px;
+        }
+      }
+    }
+  }
+}
+
 .foot-bottom {
   padding: 20px 0 0 0;
   list-style-type: none;
