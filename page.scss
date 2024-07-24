@@ -26,6 +26,18 @@ $custom-white: white;
   }
 }
 
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 body {
   width: 100%;
   height: fit-content;
@@ -42,7 +54,6 @@ header {
 
   .red-header {
     background-color: $custom-red;
-    overflow: hidden;
 
     .svg {
       fill: white;
@@ -50,6 +61,7 @@ header {
       height: 20px;
       margin: 20px;
       animation: rotate 2s ease-in-out;
+      overflow: hidden; //not working properly, if you cant fix dont touch
     }
 
     .big-header {
@@ -82,6 +94,44 @@ header {
       .bars-img {
         height: 30px;
         width: 30px;
+        cursor: pointer;
+      }
+    }
+
+    .second-side {
+      position: relative;
+      display: inline-block;
+
+      .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        list-style: none;
+        padding: 10px 10px;
+        margin: 0;
+        transform: translateY(-20px);
+        transition: all 0.3s ease-in-out;
+        overflow-y: auto;
+
+        li {
+          padding: 7px 0;
+          transition: background-color 0.4s;
+
+          &:hover {
+            background-color: #c4c4c4;
+          }
+        }
+      }
+
+      &:hover .dropdown,
+      &:focus-within .dropdown {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+        animation: slideDown 0.3s ease-in-out forwards;
+        z-index: 10;
       }
     }
   }
