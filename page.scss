@@ -26,86 +26,12 @@ $custom-white: white;
   }
 }
 
-@keyframes slideDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 body {
   width: 100%;
   height: fit-content;
   box-sizing: border-box;
   line-height: 18px;
   font-size: 13px;
-}
-
-footer {
-  .section-1 {
-    .div-1 {
-      .svg-2 {
-        display: block;
-        width: 236px;
-        height: 36px;
-        margin-right: 15px;
-        margin-bottom: 12px;
-        fill: #f72210;
-      }
-
-      .fot-p {
-        margin-bottom: 12px !important;
-      }
-    }
-
-    .fotsocials {
-      gap: 10px;
-      padding-left: 10px;
-
-      i {
-        font-size: 26px;
-      }
-    }
-  }
-
-  .footer-hr {
-    width: 100%;
-    text-align: left;
-    margin-left: 0;
-  }
-
-  .section-2 {
-    .sec-2-body {
-      .fotedition {
-        list-style-type: none;
-        gap: 10px;
-        font-size: 14px;
-        line-height: 15px;
-
-        li {
-          margin: 0 10px 0 10px;
-        }
-      }
-    }
-  }
-}
-
-.foot-bottom {
-  padding: 20px 0 0 0;
-  list-style-type: none;
-  gap: 10px;
-  font-size: 14px;
-  line-height: 15px;
-
-  li {
-    margin: 0 10px 0 0;
-    width: fit-content;
-  }
 }
 
 header {
@@ -116,6 +42,7 @@ header {
 
   .red-header {
     background-color: $custom-red;
+    overflow: hidden;
 
     .svg {
       fill: white;
@@ -123,7 +50,6 @@ header {
       height: 20px;
       margin: 20px;
       animation: rotate 2s ease-in-out;
-      overflow: hidden; //not working properly, if you cant fix dont touch
     }
 
     .big-header {
@@ -156,44 +82,6 @@ header {
       .bars-img {
         height: 30px;
         width: 30px;
-        cursor: pointer;
-      }
-    }
-
-    .second-side {
-      position: relative;
-      display: inline-block;
-
-      .dropdown {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: rgb(255, 255, 255);
-        list-style: none;
-        padding: 10px 10px;
-        margin: 0;
-        transform: translateY(-20px);
-        transition: all 0.3s ease-in-out;
-        overflow-y: auto;
-
-        li {
-          padding: 7px 0;
-          transition: background-color 0.4s;
-
-          &:hover {
-            background-color: #c4c4c4;
-          }
-        }
-      }
-
-      &:hover .dropdown,
-      &:focus-within .dropdown {
-        display: block;
-        opacity: 1;
-        transform: translateY(0);
-        animation: slideDown 0.3s ease-in-out forwards;
-        z-index: 10;
       }
     }
   }
@@ -597,6 +485,19 @@ footer {
     width: 100%;
     text-align: left;
     margin-left: 0;
+  }
+
+  .foot-bottom {
+    padding: 20px 0 0 0;
+    list-style-type: none;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 15px;
+
+    li {
+      margin: 0 10px 0 0;
+      width: fit-content;
+    }
   }
 
   .section-2 {
