@@ -46,6 +46,19 @@ body {
   font-size: 13px;
 }
 
+.foot-bottom {
+  padding: 20px 0 0 0;
+  list-style-type: none;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 15px;
+
+  li {
+    margin: 0 10px 0 0;
+    width: fit-content;
+  }
+}
+
 header {
   color: $custom-white;
   position: sticky;
@@ -535,19 +548,6 @@ footer {
     width: 100%;
     text-align: left;
     margin-left: 0;
-  }
-
-  .foot-bottom {
-    padding: 20px 0 0 0;
-    list-style-type: none;
-    gap: 10px;
-    font-size: 14px;
-    line-height: 15px;
-
-    li {
-      margin: 0 10px 0 0;
-      width: fit-content;
-    }
   }
 
   .section-2 {
