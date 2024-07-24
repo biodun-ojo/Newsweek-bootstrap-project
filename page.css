@@ -158,7 +158,7 @@ header .red-header .second-side:focus-within .dropdown {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
-  -webkit-animation: slideDown 0.3s ease-in-out forwards;
+  -webkit-animation: slidedown 0.3s ease-in-out forwards;
   animation: slideDown 0.3s ease-in-out forwards;
   z-index: 10;
 }
@@ -649,26 +649,26 @@ footer .section-2 .sec-2-body .fotedition li {
     transform: scale(1.1);
   }
 
-  .last-lines>div:nth-child(1) img {
+  .last-lines > div:nth-child(1) img {
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s;
   }
 
-  .last-lines>div:nth-child(1) img:hover {
+  .last-lines > div:nth-child(1) img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  .last-lines>div:nth-child(2) img {
+  .last-lines > div:nth-child(2) img {
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s;
   }
 
-  .last-lines>div:nth-child(2) img:hover {
+  .last-lines > div:nth-child(2) img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
