@@ -2,6 +2,7 @@
   font-family: "Roboto-Condensed";
   src: url("assests/fonts/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
 
+
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0deg);
@@ -140,6 +141,16 @@ header .red-header .second-side .dropdown {
   transition: all 0.3s ease-in-out;
   overflow-y: auto;
 }
+
+/* header .red-header .second-side .dropdown li {
+  padding: 7px 0;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+header .red-header .second-side .dropdown li:hover {
+  background-color: #c4c4c4;
+} */
 
 header .red-header .second-side:hover .dropdown,
 header .red-header .second-side:focus-within .dropdown {
