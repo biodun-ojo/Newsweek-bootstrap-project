@@ -624,7 +624,21 @@ header .red-header .second-side .dropdown li:hover {
     padding-right: 15px;
   }
 
+  .more-stories-div img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+
   .turn-culture img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+
+  .latest-news-div img {
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
@@ -636,24 +650,11 @@ header .red-header .second-side .dropdown li:hover {
     transform: scale(1.1);
   }
 
-  .more-stories-div img {
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s;
-  }
-
   .more-stories-div img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  .latest-news-div img {
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s;
-  }
 
   .latest-news-div img:hover {
     -webkit-transform: scale(1.1);
@@ -667,16 +668,16 @@ header .red-header .second-side .dropdown li:hover {
     transition: transform 0.5s, -webkit-transform 0.5s;
   }
 
-  .last-lines > div:nth-child(1) img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
   .last-lines > div:nth-child(2) img {
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  
+  .last-lines > div:nth-child(1) img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   .last-lines > div:nth-child(2) img:hover {
