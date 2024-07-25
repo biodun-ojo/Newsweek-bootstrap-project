@@ -17,13 +17,28 @@
             <small class="d-none">Wed, Jan 20, 2021</small>
             <p class="d-none big-header">Newsweek</p>
             <img src="assests/images/image.svg" class="svg">
-            <div class="d-flex  second-side">
+            <div class="d-flex second-side">
                 <button class="bg-transparent border-0 person" type="button"><img
                         src="assests/icons/material-symbols--person.svg" class="img-fluid  person-img"></button>
                 <button type="button" class="d-none bg-transparent logs">LOGIN</button>
                 <button type="button" class="m-auto fw-bolder btn-yellow">subscribe></button>
                 <button type="button" class="bg-transparent border-0 bars"><img
-                        src="assests/icons/heroicons--bars-3-16-solid.svg" class="img-fluid bars-img"></button>
+                        src="assests/icons/heroicons--bars-3-16-solid.svg" class="img-fluid bars-img">
+                    <ul class="dropdown">
+                        <li>U.S</li>
+                        <li>World</li>
+                        <li>Business</li>
+                        <li>Tech & Science</li>
+                        <li>Culture</li>
+                        <li>Newsgeek</li>
+                        <li>Sports</li>
+                        <li>Health</li>
+                        <li>The Debates</li>
+                        <li>Experts</li>
+                        <li>Vantage</li>
+                        <li>search</li>
+                    </ul>
+                </button>
             </div>
         </div>
         <div class="two-navs">
@@ -56,6 +71,7 @@
         </div>
     </header>
     <!--- tolu's side -->
+    <!-- mobile view only -->
     <div class="d-md-none tolu-div">
         <div class="p-3 top-story">
             <div class="py-2">TOP STORY</div>
@@ -201,8 +217,8 @@
             <div class="d-flex py-2 align-items-center opinion-sub-main-div">
                 <img src="images/mark-davis.webp" class="opinion-img">
                 <div class="two-p">
-                    <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th<< /p>
-                            <p>BY MARK DAVIS</p>
+                    <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th</p>
+                    <p>BY MARK DAVIS</p>
                 </div>
             </div>
 
@@ -466,6 +482,7 @@
     </div>
 
     <!--tolu tablet view-->
+    <!-- tablet view and above -->
     <div class="d-none d-md-block tolu-div">
         <section class="row tolu-row">
             <div class="col-md-7 order-md-2 col-lg-4 order-lg-2 top-story">
@@ -868,9 +885,8 @@
                     <div class="d-flex py-2 align-items-center opinion-sub-main-div">
                         <img src="images/mark-davis.webp" class="align-self-start opinion-img">
                         <div class="h-auto two-p">
-                            <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th<<
-                                    /p>
-                                    <p>BY MARK DAVIS</p>
+                            <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th</p>
+                            <p>BY MARK DAVIS</p>
                         </div>
                     </div>
 
@@ -952,8 +968,8 @@
                 <div class="d-flex py-2 align-items-center opinion-sub-main-div">
                     <img src="images/mark-davis.webp" class="opinion-img">
                     <div class="two-p">
-                        <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th<< /p>
-                                <p>BY MARK DAVIS</p>
+                        <p class="fw-bolder two-p-1">As the 46th President Takes Office, Let's Discuss the 47th</p>
+                        <p>BY MARK DAVIS</p>
                     </div>
                 </div>
 
@@ -1164,7 +1180,7 @@
         <div class="container-fluid">
             <article class="py-2 border-top">
                 <h5 class="fw-bold text-danger">U.S.</h5>
-                <div class="row">
+                <div class="row last-lines">
                     <div class="col-md">
                         <div class="d-flex">
                             <img class="img-fluid  start-0" src="images/vanderburgh-john-keown (1).jpg" class="w-100">
@@ -1220,7 +1236,7 @@
 
             <article class="py-2 border-top">
                 <h5 class="fw-bold text-danger">World</h5>
-                <div class="row">
+                <div class="row last-lines">
                     <div class="col-md">
                         <div class="d-flex">
                             <img class="img-fluid  start-0" src="images/theresa-may-donald-trump-london-2019 (1).jpg"
@@ -1275,7 +1291,7 @@
 
             <article class="py-2 border-top">
                 <h5 class="fw-bold text-danger">Business</h5>
-                <div class="row">
+                <div class="row last-lines">
                     <div class="col-md">
                         <div class="d-flex">
                             <img class="img-fluid  start-0" src="images/sheldonadelson (1).jpg" class="w-100">
@@ -1326,7 +1342,7 @@
 
             <article class="py-2 border-top">
                 <h5 class="fw-bold text-danger">Tech &amp; Science</h5>
-                <div class="row">
+                <div class="row last-lines">
                     <div class="col-md">
                         <div class="d-flex">
                             <img class="img-fluid  start-0" src="images/anthony-levandowski (1).jpg" class="w-100">
@@ -1376,7 +1392,7 @@
 
             <article class="py-2 border-top">
                 <h5 class="fw-bold text-danger">Culture</h5>
-                <div class="row">
+                <div class="row last-lines">
                     <div class="col-md">
                         <div class="d-flex">
                             <img class="img-fluid  start-0" src="images/cul-ps-jared-padalecki-2 (1).jpg" class="w-100">
@@ -1414,21 +1430,21 @@
                         </div>
                         <div class="d-flex flex-row gap-2 py-2 border-top">
                             <div class="flex-columns">
-                                <img class="img-fluid  start-0" src="images/ghislaine-maxwell-wie-symposium-new-york.webp"
-                                    class="w-100">
+                                <img class="img-fluid  start-0"
+                                    src="images/ghislaine-maxwell-wie-symposium-new-york.webp" class="w-100">
                             </div>
                             <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline">
                                 Ghislaine Maxwell Hearing Disrupted by YouTube Stream
                             </div>
                         </div>
-                      
+
                     </div>
                 </div>
             </article>
 
             <article class="py-2 border-top">
                 <h5 class="fw-bold text-danger">Sports</h5>
-                <div class="row">
+                <div class="row last-lines">
                     <div class="col-md">
                         <div class="d-flex">
                             <img class="img-fluid  start-0"
@@ -1483,7 +1499,7 @@
 
             <article class="py-2 border-top">
                 <h5 class="fw-bold text-danger">Newsweek Expert Forum</h5>
-                <div class="row">
+                <div class="row last-lines">
                     <div class="col-md">
                         <div class="d-flex">
                             <img class="img-fluid  start-0" src="images/newsweek-expert-forum (2).png" class="w-100">
@@ -1525,7 +1541,7 @@
                                 <img class="img-fluid  start-0" src="images/meet-members-newsweek-expert-forum.webp"
                                     class="w-100">
                             </div>
-                            <div  class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline ">
+                            <div class="font-roboto fw-bold redunder text-decoration-none text-dark d-inline ">
                                 Meet Six Leaders from Newsweek Expert Forum
                             </div>
                         </div>
@@ -1544,9 +1560,11 @@
                         <div class="row bg-light mx-2 pb-5 px-md-2 py-md-5 pt-md-2">
                             <div class="col-md-6">
                                 <span class="sub-news">
-                                    <img src="images/january-15-2021-cover (1).jpg" class="img-fluids" alt="Donald Trump looking upwards with the U.S. flag on the background">
-                                    <img src="images/cover-january-22-2021 (1).jpg" class="img-fluids sub-image" alt="Riot at the capitol building in U.S.">
-                                </span>	
+                                    <img src="images/january-15-2021-cover (1).jpg" class="img-fluids"
+                                        alt="Donald Trump looking upwards with the U.S. flag on the background">
+                                    <img src="images/cover-january-22-2021 (1).jpg" class="img-fluids sub-image"
+                                        alt="Riot at the capitol building in U.S.">
+                                </span>
                             </div>
                             <div class="col-md-6 text-center text-md-start">
                                 <h4 class="fw-bold write-up">
@@ -1555,30 +1573,35 @@
                                 <h5 class="font-subscribe-newsletter">
                                     All Access + Weekly Delivery.<br> Choose A Membership That's Perfect for You!
                                 </h5>
-                                <button class="fw-bold bg-danger text-light p-2 border-0 rounded mt-3">
+                                <button class="fw-bold bg-danger text-light p-2 border-0 rounded mt-3 last-sub">
                                     SUBSCRIBE >
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mx-md-4 mx-lg-0 mb-2 newsletter-main-container">
+                    <div class="col-lg-4 mx-lg-0 mb-2 newsletter-main-container">
                         <h5 class="fw-bold text-danger text-link fs-6 mt-5 mt-lg-4">
                             NEWSLETTER
                         </h5>
                         <div class="d-md-flex h-75">
                             <div class="">
-                                <img src="images/starting5-homepage-rp.png" class="img-fluid newsletter-image" alt=" white colored Iphone with a webpage Newsweek opened up">
+                                <img src="images/starting5-homepage-rp.png" class="img-fluid newsletter-image"
+                                    alt=" white colored Iphone with a webpage Newsweek opened up">
                             </div>
                             <div class="text-center text-lg-start border newsletter-size">
                                 <h4 class="fw-bold font-starting mt-4 mb-3">
                                     THE STARTING 5
                                 </h4>
                                 <P class="font-subscribe-newsletter">
-                                    See why nearly a quarter of a million <br> subscribers begin their day with the Starting 5.
+                                    See why nearly a quarter of a million <br> subscribers begin their day with the
+                                    Starting 5.
                                 </P>
                                 <div class="mb-4 email-signup">
-                                    <input class="newsletter-email p-2 border-light-subtle border-1" type="email" placeholder="Email address">
-                                    <button class="free-sign-up border-0 fw-bold bg-danger text-light rounded-end-1">FREE SIGN UP ></button>
+                                    <input class="newsletter-email p-2 border-light-subtle border-1" type="email"
+                                        placeholder="Email address">
+                                    <button
+                                        class="free-sign-up border-0 fw-bold bg-danger text-light rounded-end-1">FREE
+                                        SIGN UP ></button>
                                 </div>
                             </div>
                         </div>
@@ -1609,7 +1632,7 @@
                     <div>Editions:</div>
                     <ul class="d-flex flex-wrap m-0 align-items-start fotedition">
                         <li>U.S. Edition</li>
-                        <li>Chinese</li>
+                        <li>日本</li>
                         <li>Pakistan</li>
                         <li>Polska</li>
                         <li>Romania</li>
@@ -1631,6 +1654,7 @@
                 </ul>
             </section>
         </footer>
+    </div>
 </body>
 
 </html>
