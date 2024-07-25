@@ -544,7 +544,7 @@ footer {
     font-size: 14px;
     line-height: 15px;
 
-    li {
+    .ilb {
       margin: 0 10px 0 0;
       width: fit-content;
     }
@@ -558,7 +558,7 @@ footer {
         font-size: 14px;
         line-height: 15px;
 
-        li {
+        .ile {
           margin: 0 10px 0 10px;
         }
       }
@@ -591,6 +591,12 @@ footer {
     }
   }
 
+  .sub-news img {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
   .sub-news img,
   .turn-culture img,
   .more-stories-div img,
@@ -599,12 +605,6 @@ footer {
 
     &:hover {
       transform: scale(1.1);
-    }
-  }
-
-  .sub-news img {
-    &:hover {
-      transform: scale(1.05);
     }
   }
 
@@ -701,7 +701,7 @@ footer {
     }
 
     .fotedition {
-      li {
+      .ile {
         border-right: solid 1px #d9d9d9;
         padding-right: 10px;
         margin-left: 0 !important;
@@ -709,7 +709,7 @@ footer {
     }
 
     .foot-bottom {
-      li {
+      .ilb {
         border-right: solid 1px #d9d9d9;
         padding-right: 10px;
         margin-left: 0 !important;
