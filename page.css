@@ -555,10 +555,6 @@ footer .section-2 .sec-2-body .fotedition .ile {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .sub-news img:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
-  }
   .sub-news img,
   .turn-culture img,
   .more-stories-div img,
@@ -574,6 +570,10 @@ footer .section-2 .sec-2-body .fotedition .ile {
   .latest-news-div img:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+  }
+  .sub-news img:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
   }
   .last-lines > div:nth-child(1) img,
   .last-lines > div:nth-child(2) img {
