@@ -555,6 +555,16 @@ footer .section-2 .sec-2-body .fotedition li {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .sub-news img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+  .sub-news img:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
   .turn-culture img {
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
@@ -605,16 +615,6 @@ footer .section-2 .sec-2-body .fotedition li {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
-  .sub-news img {
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s;
-  }
-  .sub-news img:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
-  }
   .last-sub {
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
@@ -624,6 +624,17 @@ footer .section-2 .sec-2-body .fotedition li {
   .last-sub:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+  }
+  .f1-info {
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 70px;
+  }
+  .f1-info button {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-right: 20px;
   }
   .newsletter-main-container button {
     -webkit-transition: -webkit-transform 0.5s;
@@ -652,17 +663,6 @@ footer .section-2 .sec-2-body .fotedition li {
     position: absolute;
     top: 50%;
     left: 20%;
-  }
-  .f1-info {
-    text-align: start;
-    padding-top: 15px;
-    padding-left: 70px;
-  }
-  .f1-info button {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-right: 20px;
   }
   .f1-infos {
     padding-left: 30px;
@@ -766,24 +766,24 @@ footer .section-2 .sec-2-body .fotedition li {
     background-color: #c4c4c4;
     cursor: pointer;
   }
-  header .two-navs .white-div .white-div-2 {
-    list-style-type: none;
-    gap: 10px;
-    border-bottom: solid 1px #d9d9d9;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 10px 0 10px 30px;
-  }
-  header .two-navs .white-div .white-div-2 > li {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    -webkit-transition: background-color 0.4s;
-    transition: background-color 0.4s;
-  }
-  header .two-navs .white-div .white-div-2 > li:hover {
-    background-color: #c4c4c4;
-    cursor: pointer;
-  }
+}
+.white-div-2 {
+  list-style-type: none;
+  gap: 10px;
+  border-bottom: solid 1px #d9d9d9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0 10px 30px;
+}
+.white-div-2 li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+.white-div-2 li:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
 }/*# sourceMappingURL=page.css.map */
