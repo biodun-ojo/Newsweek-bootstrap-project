@@ -16,6 +16,28 @@ $custom-white: white;
   padding: 5px 15px;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 body {
   width: 100%;
   height: fit-content;
@@ -38,6 +60,8 @@ header {
       width: 132px;
       height: 20px;
       margin: 20px;
+      animation: rotate 2s ease-in-out;
+      overflow: hidden; //not working properly, if you cant fix dont touch
     }
 
     .big-header {
@@ -52,6 +76,11 @@ header {
       margin-right: 0 !important;
       border-radius: 50px;
       font-family: 'Roboto-Condensed', sans-serif;
+      transition: transform 0.5s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
     }
 
     .person {
@@ -65,6 +94,44 @@ header {
       .bars-img {
         height: 30px;
         width: 30px;
+        cursor: pointer;
+      }
+    }
+
+    .second-side {
+      position: relative;
+      display: inline-block;
+
+      .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        list-style: none;
+        padding: 10px 10px;
+        margin: 0;
+        transform: translateY(-20px);
+        transition: all 0.3s ease-in-out;
+        overflow-y: auto;
+
+        li {
+          padding: 7px 0;
+          transition: background-color 0.4s;
+
+          &:hover {
+            background-color: #c4c4c4;
+          }
+        }
+      }
+
+      &:hover .dropdown,
+      &:focus-within .dropdown {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+        animation: slideDown 0.3s ease-in-out forwards;
+        z-index: 10;
       }
     }
   }
@@ -477,7 +544,7 @@ footer {
     font-size: 14px;
     line-height: 15px;
 
-    li {
+    .ilb {
       margin: 0 10px 0 0;
       width: fit-content;
     }
@@ -491,7 +558,7 @@ footer {
         font-size: 14px;
         line-height: 15px;
 
-        li {
+        .ile {
           margin: 0 10px 0 10px;
         }
       }
@@ -524,6 +591,66 @@ footer {
     }
   }
 
+  .sub-news .please {
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .turn-culture img,
+  .more-stories-div img,
+  .latest-news-div img {
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .last-lines {
+    >div:nth-child(1),
+    >div:nth-child(2) {
+      img {
+        transition: transform 0.5s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .last-sub {
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .f1-info {
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 70px;
+
+    button {
+      justify-content: center;
+      padding-right: 20px;
+    }
+  }
+
+  .newsletter-main-container {
+    button {
+      transition: transform 0.5s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
   .sign-btns {
     justify-content: center;
   }
@@ -536,17 +663,6 @@ footer {
       position: absolute;
       top: 50%;
       left: 20%;
-    }
-  }
-
-  .f1-info {
-    text-align: start;
-    padding-top: 15px;
-    padding-left: 70px;
-
-    button {
-      justify-content: center;
-      padding-right: 20px;
     }
   }
 
@@ -585,7 +701,7 @@ footer {
     }
 
     .fotedition {
-      li {
+      .ile {
         border-right: solid 1px #d9d9d9;
         padding-right: 10px;
         margin-left: 0 !important;
@@ -593,7 +709,7 @@ footer {
     }
 
     .foot-bottom {
-      li {
+      .ilb {
         border-right: solid 1px #d9d9d9;
         padding-right: 10px;
         margin-left: 0 !important;
@@ -603,6 +719,24 @@ footer {
 }
 
 @media (min-width: 1023px) {
+  .white-div-2 {
+    list-style-type: none;
+    gap: 10px;
+    border-bottom: solid 1px #d9d9d9;
+    align-items: center;
+    padding: 10px 0 10px 30px;
+
+    li {
+      width: fit-content;
+      transition: background-color 0.4s;
+
+      &:hover {
+        background-color: #c4c4c4;
+        cursor: pointer;
+      }
+    }
+  }
+
   header {
     .red-header {
       small {
@@ -648,18 +782,12 @@ footer {
             border-left-width: 1px;
             border-left-style: solid;
             border-left-color: #d9d9d9;
-          }
-        }
+            transition: background-color 0.4s;
 
-        .white-div-2 {
-          list-style-type: none;
-          gap: 10px;
-          border-bottom: solid 1px #d9d9d9;
-          align-items: center;
-          padding: 10px 0 10px 30px;
-
-          li {
-            width: fit-content;
+            &:hover {
+              background-color: #c4c4c4;
+              cursor: pointer;
+            }
           }
         }
       }
