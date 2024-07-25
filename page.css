@@ -775,14 +775,14 @@ footer .section-2 .sec-2-body .fotedition li {
             align-items: center;
     padding: 10px 0 10px 30px;
   }
-  header .two-navs .white-div .white-div-2 li {
+  header .two-navs .white-div .white-div-2 > li {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     -webkit-transition: background-color 0.4s;
     transition: background-color 0.4s;
   }
-  header .two-navs .white-div .white-div-2 li:hover {
+  header .two-navs .white-div .white-div-2 > li:hover {
     background-color: #c4c4c4;
     cursor: pointer;
   }
