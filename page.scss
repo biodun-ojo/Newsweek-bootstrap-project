@@ -591,7 +591,6 @@ footer {
     }
   }
 
-  .sub-news img,
   .turn-culture img,
   .more-stories-div img,
   .latest-news-div img {
@@ -603,6 +602,8 @@ footer {
   }
 
   .sub-news img {
+    transition: transform 0.5s;
+
     &:hover {
       transform: scale(1.05);
     }
